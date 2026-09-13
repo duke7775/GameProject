@@ -1,0 +1,1716 @@
+fileFormatVersion: 2
+guid: 19d46785369fdc44f96bab75b3a0f9d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1850875021439310735
+    second: trot_0
+  - first:
+      213: 4119699362798834478
+    second: trot_1
+  - first:
+      213: 2548797055549377706
+    second: trot_2
+  - first:
+      213: -1493703002312261935
+    second: trot_3
+  - first:
+      213: -1205825566463980015
+    second: trot_4
+  - first:
+      213: -3863478600782105046
+    second: trot_5
+  - first:
+      213: 3616346358586321572
+    second: trot_6
+  - first:
+      213: 7023654369387343356
+    second: trot_7
+  - first:
+      213: -6969630670649226971
+    second: trot_8
+  - first:
+      213: -29186020981438403
+    second: trot_9
+  - first:
+      213: 4495929067418088205
+    second: trot_10
+  - first:
+      213: -6510766197249840067
+    second: trot_11
+  - first:
+      213: 6153210961689132807
+    second: trot_12
+  - first:
+      213: -2705087217616582570
+    second: trot_13
+  - first:
+      213: -4661662329037321011
+    second: trot_14
+  - first:
+      213: -7768154624061246014
+    second: trot_15
+  - first:
+      213: 4031402757530203049
+    second: trot_16
+  - first:
+      213: 1192362507598304262
+    second: trot_17
+  - first:
+      213: -4104329572175270708
+    second: trot_18
+  - first:
+      213: -1435742623383592093
+    second: trot_19
+  - first:
+      213: -3658545059231486603
+    second: trot_20
+  - first:
+      213: 3270805390241593928
+    second: trot_21
+  - first:
+      213: -859118839232711441
+    second: trot_22
+  - first:
+      213: 7912692136746777688
+    second: trot_23
+  - first:
+      213: -5054505771981784264
+    second: trot_24
+  - first:
+      213: 2333972643275397219
+    second: trot_25
+  - first:
+      213: 321108784220305659
+    second: trot_26
+  - first:
+      213: -4856656222290235185
+    second: trot_27
+  - first:
+      213: 3142239804350674942
+    second: trot_28
+  - first:
+      213: 5454269204284737098
+    second: trot_29
+  - first:
+      213: -3722043230061308616
+    second: trot_30
+  - first:
+      213: -6481649258603435138
+    second: trot_31
+  - first:
+      213: 2773288205706280539
+    second: trot_32
+  - first:
+      213: -7185823623642182024
+    second: trot_33
+  - first:
+      213: 2913615149770879911
+    second: trot_34
+  - first:
+      213: -9135194621885583294
+    second: trot_35
+  - first:
+      213: 5304627756570088988
+    second: trot_36
+  - first:
+      213: 1618030329473345845
+    second: trot_37
+  - first:
+      213: 6262292451754378483
+    second: trot_38
+  - first:
+      213: 1836409945874213823
+    second: trot_39
+  - first:
+      213: 4102406318954268206
+    second: trot_40
+  - first:
+      213: -8229681013824941355
+    second: trot_41
+  - first:
+      213: 6270194372144585006
+    second: trot_42
+  - first:
+      213: 3493924669262699034
+    second: trot_43
+  - first:
+      213: -1389978193703379121
+    second: trot_44
+  - first:
+      213: 285304438166482834
+    second: trot_45
+  - first:
+      213: -753556310914449532
+    second: trot_46
+  - first:
+      213: -3958670708329344197
+    second: trot_47
+  - first:
+      213: 8753642525761280315
+    second: trot_48
+  - first:
+      213: 6077874643759022907
+    second: trot_49
+  - first:
+      213: -2211459014505156533
+    second: trot_50
+  - first:
+      213: 4149941373988053585
+    second: trot_51
+  - first:
+      213: -2338235554429088744
+    second: trot_52
+  - first:
+      213: -6151195999465949520
+    second: trot_53
+  - first:
+      213: 5240752804609114536
+    second: trot_54
+  - first:
+      213: -8182500524064059017
+    second: trot_55
+  - first:
+      213: -4647197812342192346
+    second: trot_56
+  - first:
+      213: 5422301216081119539
+    second: trot_57
+  - first:
+      213: 5660932677221665996
+    second: trot_58
+  - first:
+      213: 4609938042069480760
+    second: trot_59
+  - first:
+      213: -8612834854117158094
+    second: trot_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trot_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1232
+        width: 229
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174677f69fe5056e0800000000000000
+      internalID: -1850875021439310735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_1
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1233
+        width: 245
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23170d4ebc1c2930800000000000000
+      internalID: 4119699362798834478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_2
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1234
+        width: 245
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac059cfa652f5320800000000000000
+      internalID: 2548797055549377706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_3
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1233
+        width: 245
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de3e3b880d454be0800000000000000
+      internalID: -1493703002312261935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_4
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 1234
+        width: 245
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e84d9390c044fe0800000000000000
+      internalID: -1205825566463980015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_5
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1233
+        width: 246
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a263f03aeaa226ac0800000000000000
+      internalID: -3863478600782105046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_6
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 1237
+        width: 246
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aaa0585ad7df2230800000000000000
+      internalID: 3616346358586321572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_7
+      rect:
+        serializedVersion: 2
+        x: 3625
+        y: 1232
+        width: 245
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfde370af68097160800000000000000
+      internalID: 7023654369387343356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_8
+      rect:
+        serializedVersion: 2
+        x: 4126
+        y: 1232
+        width: 244
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529094ce4d5e64f90800000000000000
+      internalID: -6969630670649226971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_9
+      rect:
+        serializedVersion: 2
+        x: 4626
+        y: 1232
+        width: 244
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d388ef2f77f489ff0800000000000000
+      internalID: -29186020981438403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1032
+        width: 243
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03fec69aafb46e30800000000000000
+      internalID: 4495929067418088205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_11
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1032
+        width: 241
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c6d4d93ac15a5a0800000000000000
+      internalID: -6510766197249840067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_12
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1032
+        width: 240
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f358fb4c8946550800000000000000
+      internalID: 6153210961689132807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_13
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1031
+        width: 240
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658838bf189957ad0800000000000000
+      internalID: -2705087217616582570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_14
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 1032
+        width: 240
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc09ee6fc27e4fb0800000000000000
+      internalID: -4661662329037321011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_15
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 1037
+        width: 244
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c57580e688f13490800000000000000
+      internalID: -7768154624061246014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_16
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 1036
+        width: 245
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a33e1dd27b62f730800000000000000
+      internalID: 4031402757530203049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_17
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 1035
+        width: 246
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60414ec126f1c8010800000000000000
+      internalID: 1192362507598304262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_18
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 1034
+        width: 246
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccac51fffd7a07c0800000000000000
+      internalID: -4104329572175270708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_19
+      rect:
+        serializedVersion: 2
+        x: 4625
+        y: 1033
+        width: 245
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3636550e0b7331ce0800000000000000
+      internalID: -1435742623383592093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_20
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 833
+        width: 245
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d2fb507ac3a3dc0800000000000000
+      internalID: -3658545059231486603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_21
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 834
+        width: 245
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a78c64c2c346d20800000000000000
+      internalID: 3270805390241593928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_22
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 834
+        width: 245
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe430bfa7fbc314f0800000000000000
+      internalID: -859118839232711441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_23
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 834
+        width: 246
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c71db33978fcd60800000000000000
+      internalID: 7912692136746777688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_24
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 832
+        width: 245
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b3dd1c7c9cad9b0800000000000000
+      internalID: -5054505771981784264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_25
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 832
+        width: 245
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368d8edc0cfe36020800000000000000
+      internalID: 2333972643275397219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_26
+      rect:
+        serializedVersion: 2
+        x: 3126
+        y: 832
+        width: 245
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf875b9ecbec47400800000000000000
+      internalID: 321108784220305659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_27
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 832
+        width: 241
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc03332c5e0b99cb0800000000000000
+      internalID: -4856656222290235185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_28
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 831
+        width: 240
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef73a69247a7b9b20800000000000000
+      internalID: 3142239804350674942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_29
+      rect:
+        serializedVersion: 2
+        x: 4631
+        y: 831
+        width: 240
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a468ebe71f471bb40800000000000000
+      internalID: 5454269204284737098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_30
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 631
+        width: 240
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8355c890765a85cc0800000000000000
+      internalID: -3722043230061308616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_31
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 633
+        width: 241
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ba44e275e8c06a0800000000000000
+      internalID: -6481649258603435138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_32
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 636
+        width: 242
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e37e8fde2bc7620800000000000000
+      internalID: 2773288205706280539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_33
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 636
+        width: 244
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e82368c73d64c90800000000000000
+      internalID: -7185823623642182024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_34
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 635
+        width: 245
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a33a4eaa8d3f6820800000000000000
+      internalID: 2913615149770879911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_35
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 634
+        width: 245
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240737844e4493180800000000000000
+      internalID: -9135194621885583294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_36
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 633
+        width: 245
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c169908e6d2dd9940800000000000000
+      internalID: 5304627756570088988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_37
+      rect:
+        serializedVersion: 2
+        x: 3625
+        y: 633
+        width: 245
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53921101306647610800000000000000
+      internalID: 1618030329473345845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_38
+      rect:
+        serializedVersion: 2
+        x: 4125
+        y: 634
+        width: 245
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f40e6a4ec128e650800000000000000
+      internalID: 6262292451754378483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_39
+      rect:
+        serializedVersion: 2
+        x: 4625
+        y: 634
+        width: 245
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbba3d5bd1d3c7910800000000000000
+      internalID: 1836409945874213823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_40
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 434
+        width: 245
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e264695cfccaee830800000000000000
+      internalID: 4102406318954268206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_41
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 433
+        width: 246
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2103c78bc4acd80800000000000000
+      internalID: -8229681013824941355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_42
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 432
+        width: 245
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29d4508f84340750800000000000000
+      internalID: 6270194372144585006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_43
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 432
+        width: 243
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a906f99f9ec7030800000000000000
+      internalID: 3493924669262699034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_44
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 433
+        width: 242
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f55ce723ec5bce0800000000000000
+      internalID: -1389978193703379121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_45
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 432
+        width: 241
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f61c9ffda95f300800000000000000
+      internalID: 285304438166482834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_46
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 431
+        width: 240
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fb0b91784da85f0800000000000000
+      internalID: -753556310914449532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_47
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 432
+        width: 240
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b331947f6f9ff09c0800000000000000
+      internalID: -3958670708329344197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_48
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 432
+        width: 240
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3911c69f7f2b7970800000000000000
+      internalID: 8753642525761280315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_49
+      rect:
+        serializedVersion: 2
+        x: 4628
+        y: 435
+        width: 242
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b334c9a59c2f85450800000000000000
+      internalID: 6077874643759022907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_50
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 236
+        width: 244
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40b51d3eb15f41e0800000000000000
+      internalID: -2211459014505156533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_51
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 235
+        width: 246
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152214b31bd879930800000000000000
+      internalID: 4149941373988053585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_52
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 234
+        width: 246
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cc019d62bec8fd0800000000000000
+      internalID: -2338235554429088744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_53
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 234
+        width: 246
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6370434df82aaa0800000000000000
+      internalID: -6151195999465949520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_54
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 234
+        width: 245
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1cb5ab8e4eab840800000000000000
+      internalID: 5240752804609114536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_55
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 234
+        width: 245
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771d6b8402be17e80800000000000000
+      internalID: -8182500524064059017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_56
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 235
+        width: 245
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6270f5a2636d18fb0800000000000000
+      internalID: -4647197812342192346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_57
+      rect:
+        serializedVersion: 2
+        x: 3625
+        y: 234
+        width: 245
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3390fa93a32ef3b40800000000000000
+      internalID: 5422301216081119539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_58
+      rect:
+        serializedVersion: 2
+        x: 4125
+        y: 232
+        width: 245
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccc23be64caf8e40800000000000000
+      internalID: 5660932677221665996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_59
+      rect:
+        serializedVersion: 2
+        x: 4626
+        y: 232
+        width: 245
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8357c1a893ac9ff30800000000000000
+      internalID: 4609938042069480760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trot_60
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 32
+        width: 229
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2335e3b3550197880800000000000000
+      internalID: -8612834854117158094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      trot_0: -1850875021439310735
+      trot_1: 4119699362798834478
+      trot_10: 4495929067418088205
+      trot_11: -6510766197249840067
+      trot_12: 6153210961689132807
+      trot_13: -2705087217616582570
+      trot_14: -4661662329037321011
+      trot_15: -7768154624061246014
+      trot_16: 4031402757530203049
+      trot_17: 1192362507598304262
+      trot_18: -4104329572175270708
+      trot_19: -1435742623383592093
+      trot_2: 2548797055549377706
+      trot_20: -3658545059231486603
+      trot_21: 3270805390241593928
+      trot_22: -859118839232711441
+      trot_23: 7912692136746777688
+      trot_24: -5054505771981784264
+      trot_25: 2333972643275397219
+      trot_26: 321108784220305659
+      trot_27: -4856656222290235185
+      trot_28: 3142239804350674942
+      trot_29: 5454269204284737098
+      trot_3: -1493703002312261935
+      trot_30: -3722043230061308616
+      trot_31: -6481649258603435138
+      trot_32: 2773288205706280539
+      trot_33: -7185823623642182024
+      trot_34: 2913615149770879911
+      trot_35: -9135194621885583294
+      trot_36: 5304627756570088988
+      trot_37: 1618030329473345845
+      trot_38: 6262292451754378483
+      trot_39: 1836409945874213823
+      trot_4: -1205825566463980015
+      trot_40: 4102406318954268206
+      trot_41: -8229681013824941355
+      trot_42: 6270194372144585006
+      trot_43: 3493924669262699034
+      trot_44: -1389978193703379121
+      trot_45: 285304438166482834
+      trot_46: -753556310914449532
+      trot_47: -3958670708329344197
+      trot_48: 8753642525761280315
+      trot_49: 6077874643759022907
+      trot_5: -3863478600782105046
+      trot_50: -2211459014505156533
+      trot_51: 4149941373988053585
+      trot_52: -2338235554429088744
+      trot_53: -6151195999465949520
+      trot_54: 5240752804609114536
+      trot_55: -8182500524064059017
+      trot_56: -4647197812342192346
+      trot_57: 5422301216081119539
+      trot_58: 5660932677221665996
+      trot_59: 4609938042069480760
+      trot_6: 3616346358586321572
+      trot_60: -8612834854117158094
+      trot_7: 7023654369387343356
+      trot_8: -6969630670649226971
+      trot_9: -29186020981438403
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

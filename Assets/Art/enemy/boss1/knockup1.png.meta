@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: f324f65732a338b44bb3412050141653
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8151119634582380405
+    second: knockup1_0
+  - first:
+      213: 789178712966387004
+    second: knockup1_1
+  - first:
+      213: 697916905857940963
+    second: knockup1_2
+  - first:
+      213: -2165683841931438811
+    second: knockup1_3
+  - first:
+      213: 3882226796787335374
+    second: knockup1_4
+  - first:
+      213: 8692017442615933591
+    second: knockup1_5
+  - first:
+      213: -6128243231475984012
+    second: knockup1_6
+  - first:
+      213: 2310099054724210160
+    second: knockup1_7
+  - first:
+      213: -7602771270118001336
+    second: knockup1_8
+  - first:
+      213: 5536917175313158759
+    second: knockup1_9
+  - first:
+      213: 8647972926045007669
+    second: knockup1_10
+  - first:
+      213: -2085251473399561587
+    second: knockup1_11
+  - first:
+      213: -2733687636229581609
+    second: knockup1_12
+  - first:
+      213: 1436948827942928514
+    second: knockup1_13
+  - first:
+      213: -2833868546265571803
+    second: knockup1_14
+  - first:
+      213: -8444201327655810978
+    second: knockup1_15
+  - first:
+      213: 9103035584429790866
+    second: knockup1_16
+  - first:
+      213: -8780705168002572584
+    second: knockup1_17
+  - first:
+      213: 3647689505747063694
+    second: knockup1_18
+  - first:
+      213: 5458599574347829798
+    second: knockup1_19
+  - first:
+      213: -9089354222099546937
+    second: knockup1_20
+  - first:
+      213: -3653295279221262927
+    second: knockup1_21
+  - first:
+      213: 6962061731445083802
+    second: knockup1_22
+  - first:
+      213: 8585273780999498762
+    second: knockup1_23
+  - first:
+      213: -2194253923537667495
+    second: knockup1_24
+  - first:
+      213: 3663998337988221102
+    second: knockup1_25
+  - first:
+      213: 7672032604774752359
+    second: knockup1_26
+  - first:
+      213: 157136842905479791
+    second: knockup1_27
+  - first:
+      213: -7872520324740318135
+    second: knockup1_28
+  - first:
+      213: -9010232559263702944
+    second: knockup1_29
+  - first:
+      213: -5741396481436325948
+    second: knockup1_30
+  - first:
+      213: 7169949224223044392
+    second: knockup1_31
+  - first:
+      213: 8263378915647302600
+    second: knockup1_32
+  - first:
+      213: 721816713935225881
+    second: knockup1_33
+  - first:
+      213: 8112831694512036794
+    second: knockup1_34
+  - first:
+      213: 5607503650324461457
+    second: knockup1_35
+  - first:
+      213: 1855233761593400909
+    second: knockup1_36
+  - first:
+      213: -5209518715383050098
+    second: knockup1_37
+  - first:
+      213: -8720113549817228312
+    second: knockup1_38
+  - first:
+      213: -5393749198338722467
+    second: knockup1_39
+  - first:
+      213: -2368528802992855695
+    second: knockup1_40
+  - first:
+      213: -2060228006386907815
+    second: knockup1_41
+  - first:
+      213: -5361821439318565134
+    second: knockup1_42
+  - first:
+      213: -5941113458991796073
+    second: knockup1_43
+  - first:
+      213: 4493975121587119909
+    second: knockup1_44
+  - first:
+      213: -4760312825083565963
+    second: knockup1_45
+  - first:
+      213: -674931155459878857
+    second: knockup1_46
+  - first:
+      213: -763006446675918885
+    second: knockup1_47
+  - first:
+      213: 431006638475687146
+    second: knockup1_48
+  - first:
+      213: -6507272190246534574
+    second: knockup1_49
+  - first:
+      213: -9090415551891831968
+    second: knockup1_50
+  - first:
+      213: 816905371130517086
+    second: knockup1_51
+  - first:
+      213: -7174372884911982316
+    second: knockup1_52
+  - first:
+      213: 2020956848807532699
+    second: knockup1_53
+  - first:
+      213: -1875526849590684328
+    second: knockup1_54
+  - first:
+      213: -579555058779940522
+    second: knockup1_55
+  - first:
+      213: -2541583876782836105
+    second: knockup1_56
+  - first:
+      213: 9159365056714331735
+    second: knockup1_57
+  - first:
+      213: -7844469074753712057
+    second: knockup1_58
+  - first:
+      213: 4525146660297705534
+    second: knockup1_59
+  - first:
+      213: -347385470525247503
+    second: knockup1_60
+  - first:
+      213: 4448961584770323663
+    second: knockup1_61
+  - first:
+      213: -3256980606190451119
+    second: knockup1_62
+  - first:
+      213: 8452116746543804789
+    second: knockup1_63
+  - first:
+      213: -4484123615801220306
+    second: knockup1_64
+  - first:
+      213: -6332827332229825351
+    second: knockup1_65
+  - first:
+      213: 7575968171400035862
+    second: knockup1_66
+  - first:
+      213: 6445229660541862873
+    second: knockup1_67
+  - first:
+      213: 6451472178264923350
+    second: knockup1_68
+  - first:
+      213: -2111454068502032243
+    second: knockup1_69
+  - first:
+      213: 7087583569181026839
+    second: knockup1_70
+  - first:
+      213: 8581764901613099280
+    second: knockup1_71
+  - first:
+      213: -4564439489892001200
+    second: knockup1_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: knockup1_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1929
+        width: 229
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f9ef40f189e1170800000000000000
+      internalID: 8151119634582380405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_1
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1931
+        width: 223
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3559a2bbd9b3fa00800000000000000
+      internalID: 789178712966387004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_2
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1959
+        width: 220
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edf6686abf7fa900800000000000000
+      internalID: 697916905857940963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_3
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1988
+        width: 229
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5259fd12502f1f1e0800000000000000
+      internalID: -2165683841931438811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_4
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 1993
+        width: 235
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec00308e3b070e530800000000000000
+      internalID: 3882226796787335374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_5
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 1998
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a3f90dfcf30a870800000000000000
+      internalID: 8692017442615933591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_6
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 2003
+        width: 243
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4799ea2ff3b14faa0800000000000000
+      internalID: -6128243231475984012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_7
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 2001
+        width: 231
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd5dc0d9de1f0020800000000000000
+      internalID: 2310099054724210160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_8
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 2004
+        width: 246
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8453210afc78d7690800000000000000
+      internalID: -7602771270118001336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_9
+      rect:
+        serializedVersion: 2
+        x: 4633
+        y: 2008
+        width: 242
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762dc49c5d417dc40800000000000000
+      internalID: 5536917175313158759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1744
+        width: 247
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fab1cae85c30870800000000000000
+      internalID: 8647972926045007669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_11
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1741
+        width: 248
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82c8a445d2bf03e0800000000000000
+      internalID: -2085251473399561587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1737
+        width: 245
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d498ab149dff0ad0800000000000000
+      internalID: -2733687636229581609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_13
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1739
+        width: 244
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280c3f1885111f310800000000000000
+      internalID: 1436948827942928514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_14
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1736
+        width: 241
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e10b752931ca8d0800000000000000
+      internalID: -2833868546265571803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_15
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 1758
+        width: 237
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58813db1ab20da80800000000000000
+      internalID: -8444201327655810978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_16
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1774
+        width: 233
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2969da352aa745e70800000000000000
+      internalID: 9103035584429790866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_17
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 1766
+        width: 228
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de15cffb2ba42680800000000000000
+      internalID: -8780705168002572584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_18
+      rect:
+        serializedVersion: 2
+        x: 4148
+        y: 1744
+        width: 212
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8359f877423f9230800000000000000
+      internalID: 3647689505747063694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_19
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 1722
+        width: 204
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622d9185467d0cb40800000000000000
+      internalID: 5458599574347829798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_20
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1384
+        width: 185
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc3f021e702cd180800000000000000
+      internalID: -9089354222099546937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_21
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1382
+        width: 210
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5b76eac43ec4dc0800000000000000
+      internalID: -3653295279221262927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_22
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1384
+        width: 242
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e002712463e9060800000000000000
+      internalID: 6962061731445083802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_23
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1386
+        width: 258
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c23ff5405052770800000000000000
+      internalID: 8585273780999498762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_24
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 1391
+        width: 253
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ab784aea17c81e0800000000000000
+      internalID: -2194253923537667495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_25
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1391
+        width: 255
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8d861631329d230800000000000000
+      internalID: 3663998337988221102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_26
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 1388
+        width: 258
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76060d08109887a60800000000000000
+      internalID: 7672032604774752359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_27
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 1385
+        width: 257
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ae18640234e2200800000000000000
+      internalID: 157136842905479791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_28
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 1385
+        width: 258
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c7fcc99703fb290800000000000000
+      internalID: -7872520324740318135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_29
+      rect:
+        serializedVersion: 2
+        x: 4622
+        y: 1385
+        width: 258
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060ad61c93935f280800000000000000
+      internalID: -9010232559263702944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_30
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1115
+        width: 256
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c76f41c1567250b0800000000000000
+      internalID: -5741396481436325948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_31
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1114
+        width: 256
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823f667d4d6c08360800000000000000
+      internalID: 7169949224223044392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_32
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1114
+        width: 254
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb2c9fa75b6da270800000000000000
+      internalID: 8263378915647302600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_33
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1114
+        width: 254
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9148c0b1a78640a00800000000000000
+      internalID: 721816713935225881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_34
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 1114
+        width: 252
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb9be94171969070800000000000000
+      internalID: 8112831694512036794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_35
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1114
+        width: 252
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197bb423cdad1dd40800000000000000
+      internalID: 5607503650324461457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_36
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 1115
+        width: 250
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e1617d64d1fb910800000000000000
+      internalID: 1855233761593400909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_37
+      rect:
+        serializedVersion: 2
+        x: 3625
+        y: 1115
+        width: 250
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8018de545214b7b0800000000000000
+      internalID: -5209518715383050098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_38
+      rect:
+        serializedVersion: 2
+        x: 4126
+        y: 1115
+        width: 248
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3d2167deeebf680800000000000000
+      internalID: -8720113549817228312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_39
+      rect:
+        serializedVersion: 2
+        x: 4626
+        y: 1115
+        width: 248
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55f8717ead8525b0800000000000000
+      internalID: -5393749198338722467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_40
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 841
+        width: 247
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17564594a9b412fd0800000000000000
+      internalID: -2368528802992855695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_41
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 842
+        width: 247
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9554ff23b899863e0800000000000000
+      internalID: -2060228006386907815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_42
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 842
+        width: 245
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fed7502fcbf695b0800000000000000
+      internalID: -5361821439318565134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_43
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 842
+        width: 245
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790708259ccec8da0800000000000000
+      internalID: -5941113458991796073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_44
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 844
+        width: 242
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527a4af109ecd5e30800000000000000
+      internalID: 4493975121587119909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_45
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 844
+        width: 242
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5786821f4b8ffedb0800000000000000
+      internalID: -4760312825083565963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_46
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 844
+        width: 242
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73058f6a0b922a6f0800000000000000
+      internalID: -674931155459878857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_47
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 844
+        width: 241
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf7c88eda14965f0800000000000000
+      internalID: -763006446675918885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_48
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 844
+        width: 241
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4bd2e014e3bf500800000000000000
+      internalID: 431006638475687146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_49
+      rect:
+        serializedVersion: 2
+        x: 4632
+        y: 845
+        width: 240
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252c3938b6681b5a0800000000000000
+      internalID: -6507272190246534574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_50
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 574
+        width: 241
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0630dc8f73b58d180800000000000000
+      internalID: -9090415551891831968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_51
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 574
+        width: 239
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56d75d5b1b365b00800000000000000
+      internalID: 816905371130517086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_52
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 574
+        width: 239
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41970a46fd18f6c90800000000000000
+      internalID: -7174372884911982316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_53
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 574
+        width: 238
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98d097eb81eb0c10800000000000000
+      internalID: 2020956848807532699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_54
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 574
+        width: 238
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855907b644ac8f5e0800000000000000
+      internalID: -1875526849590684328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_55
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 574
+        width: 230
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65914a1aeb105f7f0800000000000000
+      internalID: -579555058779940522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_56
+      rect:
+        serializedVersion: 2
+        x: 3140
+        y: 574
+        width: 230
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776bf711eea7abcd0800000000000000
+      internalID: -2541583876782836105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_57
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 573
+        width: 217
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756559d9df99c1f70800000000000000
+      internalID: 9159365056714331735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_58
+      rect:
+        serializedVersion: 2
+        x: 4151
+        y: 573
+        width: 217
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74094c330f8d22390800000000000000
+      internalID: -7844469074753712057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_59
+      rect:
+        serializedVersion: 2
+        x: 4657
+        y: 574
+        width: 205
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38079b89ec8cce30800000000000000
+      internalID: 4525146660297705534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_60
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 303
+        width: 205
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffe53d41c6dd2bf0800000000000000
+      internalID: -347385470525247503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_61
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 303
+        width: 202
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4189f5df2edbd30800000000000000
+      internalID: 4448961584770323663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_62
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 303
+        width: 201
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1568ea71561ecc2d0800000000000000
+      internalID: -3256980606190451119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_63
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 303
+        width: 201
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571bfd55663fb4570800000000000000
+      internalID: 8452116746543804789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_64
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 303
+        width: 203
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e236a3f445135c1c0800000000000000
+      internalID: -4484123615801220306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_65
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 303
+        width: 203
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc7e8618174d18a0800000000000000
+      internalID: -6332827332229825351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_66
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 303
+        width: 207
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ef6f5a9ee332960800000000000000
+      internalID: 7575968171400035862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_67
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 303
+        width: 207
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3c86c5a3e027950800000000000000
+      internalID: 6445229660541862873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_68
+      rect:
+        serializedVersion: 2
+        x: 4149
+        y: 303
+        width: 217
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcdbc7c3cb388950800000000000000
+      internalID: 6451472178264923350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_69
+      rect:
+        serializedVersion: 2
+        x: 4649
+        y: 303
+        width: 217
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80126f26bb92b2e0800000000000000
+      internalID: -2111454068502032243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_70
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 33
+        width: 222
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a2eec54b72c5260800000000000000
+      internalID: 7087583569181026839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_71
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 33
+        width: 222
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019509ab5bd881770800000000000000
+      internalID: 8581764901613099280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockup1_72
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 32
+        width: 229
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ad836a77ad7a0c0800000000000000
+      internalID: -4564439489892001200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      knockup1_0: 8151119634582380405
+      knockup1_1: 789178712966387004
+      knockup1_10: 8647972926045007669
+      knockup1_11: -2085251473399561587
+      knockup1_12: -2733687636229581609
+      knockup1_13: 1436948827942928514
+      knockup1_14: -2833868546265571803
+      knockup1_15: -8444201327655810978
+      knockup1_16: 9103035584429790866
+      knockup1_17: -8780705168002572584
+      knockup1_18: 3647689505747063694
+      knockup1_19: 5458599574347829798
+      knockup1_2: 697916905857940963
+      knockup1_20: -9089354222099546937
+      knockup1_21: -3653295279221262927
+      knockup1_22: 6962061731445083802
+      knockup1_23: 8585273780999498762
+      knockup1_24: -2194253923537667495
+      knockup1_25: 3663998337988221102
+      knockup1_26: 7672032604774752359
+      knockup1_27: 157136842905479791
+      knockup1_28: -7872520324740318135
+      knockup1_29: -9010232559263702944
+      knockup1_3: -2165683841931438811
+      knockup1_30: -5741396481436325948
+      knockup1_31: 7169949224223044392
+      knockup1_32: 8263378915647302600
+      knockup1_33: 721816713935225881
+      knockup1_34: 8112831694512036794
+      knockup1_35: 5607503650324461457
+      knockup1_36: 1855233761593400909
+      knockup1_37: -5209518715383050098
+      knockup1_38: -8720113549817228312
+      knockup1_39: -5393749198338722467
+      knockup1_4: 3882226796787335374
+      knockup1_40: -2368528802992855695
+      knockup1_41: -2060228006386907815
+      knockup1_42: -5361821439318565134
+      knockup1_43: -5941113458991796073
+      knockup1_44: 4493975121587119909
+      knockup1_45: -4760312825083565963
+      knockup1_46: -674931155459878857
+      knockup1_47: -763006446675918885
+      knockup1_48: 431006638475687146
+      knockup1_49: -6507272190246534574
+      knockup1_5: 8692017442615933591
+      knockup1_50: -9090415551891831968
+      knockup1_51: 816905371130517086
+      knockup1_52: -7174372884911982316
+      knockup1_53: 2020956848807532699
+      knockup1_54: -1875526849590684328
+      knockup1_55: -579555058779940522
+      knockup1_56: -2541583876782836105
+      knockup1_57: 9159365056714331735
+      knockup1_58: -7844469074753712057
+      knockup1_59: 4525146660297705534
+      knockup1_6: -6128243231475984012
+      knockup1_60: -347385470525247503
+      knockup1_61: 4448961584770323663
+      knockup1_62: -3256980606190451119
+      knockup1_63: 8452116746543804789
+      knockup1_64: -4484123615801220306
+      knockup1_65: -6332827332229825351
+      knockup1_66: 7575968171400035862
+      knockup1_67: 6445229660541862873
+      knockup1_68: 6451472178264923350
+      knockup1_69: -2111454068502032243
+      knockup1_7: 2310099054724210160
+      knockup1_70: 7087583569181026839
+      knockup1_71: 8581764901613099280
+      knockup1_72: -4564439489892001200
+      knockup1_8: -7602771270118001336
+      knockup1_9: 5536917175313158759
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
