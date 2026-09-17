@@ -1,0 +1,4030 @@
+fileFormatVersion: 2
+guid: 4dfde98226dd4524b8491602d3a1013e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 368368634542637758
+    second: pf2_0
+  - first:
+      213: -1431291925436699733
+    second: pf2_1
+  - first:
+      213: -2362694730517714384
+    second: pf2_2
+  - first:
+      213: 1505837198262568685
+    second: pf2_3
+  - first:
+      213: 5479157420908212654
+    second: pf2_4
+  - first:
+      213: -2020755893111905648
+    second: pf2_5
+  - first:
+      213: 4353604087182141611
+    second: pf2_6
+  - first:
+      213: 3363294882980468311
+    second: pf2_7
+  - first:
+      213: 3794532547508450998
+    second: pf2_8
+  - first:
+      213: -5688780923001382489
+    second: pf2_9
+  - first:
+      213: -2689376484838666001
+    second: pf2_10
+  - first:
+      213: -6223520838838504672
+    second: pf2_11
+  - first:
+      213: 7024436305754142675
+    second: pf2_12
+  - first:
+      213: -6636453247277788892
+    second: pf2_13
+  - first:
+      213: 6733976201322296340
+    second: pf2_14
+  - first:
+      213: 8991109483312983429
+    second: pf2_15
+  - first:
+      213: 7917300601597296708
+    second: pf2_16
+  - first:
+      213: -1901201490873625137
+    second: pf2_17
+  - first:
+      213: -8224611947033484395
+    second: pf2_18
+  - first:
+      213: -2071783885747161753
+    second: pf2_19
+  - first:
+      213: -1805172172463099577
+    second: pf2_20
+  - first:
+      213: 785652949465198769
+    second: pf2_21
+  - first:
+      213: 2769921686020663604
+    second: pf2_22
+  - first:
+      213: -413274389223948690
+    second: pf2_23
+  - first:
+      213: -8439293336973273010
+    second: pf2_24
+  - first:
+      213: -2547206623458884197
+    second: pf2_25
+  - first:
+      213: -4970351123301248351
+    second: pf2_26
+  - first:
+      213: 4104589681977680776
+    second: pf2_27
+  - first:
+      213: -7485798732641862636
+    second: pf2_28
+  - first:
+      213: -2823466673767188361
+    second: pf2_29
+  - first:
+      213: -6057931332253758934
+    second: pf2_30
+  - first:
+      213: -7323882451575312557
+    second: pf2_31
+  - first:
+      213: -7147544947991695387
+    second: pf2_32
+  - first:
+      213: -2853737649298628832
+    second: pf2_33
+  - first:
+      213: 2590367891468834909
+    second: pf2_34
+  - first:
+      213: -8912578787661259626
+    second: pf2_35
+  - first:
+      213: 8957647023354916926
+    second: pf2_36
+  - first:
+      213: -3727062735827561974
+    second: pf2_37
+  - first:
+      213: 4704120447722303347
+    second: pf2_38
+  - first:
+      213: 7047167039745151624
+    second: pf2_39
+  - first:
+      213: -777882749104064869
+    second: pf2_40
+  - first:
+      213: 7737912833858514226
+    second: pf2_41
+  - first:
+      213: -165403668133177523
+    second: pf2_42
+  - first:
+      213: 7589574675831460259
+    second: pf2_43
+  - first:
+      213: -6052121940514774819
+    second: pf2_44
+  - first:
+      213: -7004201531662200287
+    second: pf2_45
+  - first:
+      213: -4983488991822837616
+    second: pf2_46
+  - first:
+      213: 650080571800809260
+    second: pf2_47
+  - first:
+      213: -4420698059665515323
+    second: pf2_48
+  - first:
+      213: -7201645799755444903
+    second: pf2_49
+  - first:
+      213: 2643559430562392170
+    second: pf2_50
+  - first:
+      213: 8845247273096446367
+    second: pf2_51
+  - first:
+      213: 8691623356654013169
+    second: pf2_52
+  - first:
+      213: 1784919642178283340
+    second: pf2_53
+  - first:
+      213: -950636618843231603
+    second: pf2_54
+  - first:
+      213: -5004718971037201990
+    second: pf2_55
+  - first:
+      213: 2668635687305809092
+    second: pf2_56
+  - first:
+      213: 2929357991893331876
+    second: pf2_57
+  - first:
+      213: 8197654316110789601
+    second: pf2_58
+  - first:
+      213: -3011012818055501574
+    second: pf2_59
+  - first:
+      213: -53627937919787781
+    second: pf2_60
+  - first:
+      213: -8982288305189512669
+    second: pf2_61
+  - first:
+      213: -2351108536125497162
+    second: pf2_62
+  - first:
+      213: 4927942748998043854
+    second: pf2_63
+  - first:
+      213: -6582561583321836504
+    second: pf2_64
+  - first:
+      213: 6376259919402630524
+    second: pf2_65
+  - first:
+      213: 2405076567876351005
+    second: pf2_66
+  - first:
+      213: -1292197550920113230
+    second: pf2_67
+  - first:
+      213: 5999439024164948723
+    second: pf2_68
+  - first:
+      213: 1155838258273153767
+    second: pf2_69
+  - first:
+      213: -6011386817456569036
+    second: pf2_70
+  - first:
+      213: -7230270550216422858
+    second: pf2_71
+  - first:
+      213: -2293682349683772402
+    second: pf2_72
+  - first:
+      213: -3429213037768693505
+    second: pf2_73
+  - first:
+      213: 2959029612861105473
+    second: pf2_74
+  - first:
+      213: 6960934470875523398
+    second: pf2_75
+  - first:
+      213: -2444247128440323548
+    second: pf2_76
+  - first:
+      213: 7062094358257488254
+    second: pf2_77
+  - first:
+      213: 7418912062336632324
+    second: pf2_78
+  - first:
+      213: 4740592338086407571
+    second: pf2_79
+  - first:
+      213: 187519517996478519
+    second: pf2_80
+  - first:
+      213: 4508556373991655269
+    second: pf2_81
+  - first:
+      213: 4876121554501090795
+    second: pf2_82
+  - first:
+      213: -1382427667946105002
+    second: pf2_83
+  - first:
+      213: 4808859933263214602
+    second: pf2_84
+  - first:
+      213: 1528840031312581564
+    second: pf2_85
+  - first:
+      213: 1006140118477405799
+    second: pf2_86
+  - first:
+      213: -2021683566733894485
+    second: pf2_87
+  - first:
+      213: -7586809749305217862
+    second: pf2_88
+  - first:
+      213: 310361280351632949
+    second: pf2_89
+  - first:
+      213: -5783193561015160360
+    second: pf2_90
+  - first:
+      213: -5819898910214966928
+    second: pf2_91
+  - first:
+      213: -3941919779645018135
+    second: pf2_92
+  - first:
+      213: -5160422850725662703
+    second: pf2_93
+  - first:
+      213: -1928975123299846317
+    second: pf2_94
+  - first:
+      213: 4515947926248874438
+    second: pf2_95
+  - first:
+      213: 7892130417455719605
+    second: pf2_96
+  - first:
+      213: -5806279179850776505
+    second: pf2_97
+  - first:
+      213: 7951145408884123235
+    second: pf2_98
+  - first:
+      213: -5345500421062608771
+    second: pf2_99
+  - first:
+      213: 1424303160044135976
+    second: pf2_100
+  - first:
+      213: 5124505487984973416
+    second: pf2_101
+  - first:
+      213: -2921164326465067110
+    second: pf2_102
+  - first:
+      213: -8543448530284252261
+    second: pf2_103
+  - first:
+      213: -3910375240616574190
+    second: pf2_104
+  - first:
+      213: -1700335749358599111
+    second: pf2_105
+  - first:
+      213: -830148773399490483
+    second: pf2_106
+  - first:
+      213: 2532726769321212220
+    second: pf2_107
+  - first:
+      213: 3455593453435965496
+    second: pf2_108
+  - first:
+      213: -6155631059434906845
+    second: pf2_109
+  - first:
+      213: 7933442207418500776
+    second: pf2_110
+  - first:
+      213: 3758510974382096215
+    second: pf2_111
+  - first:
+      213: 8473980204917011652
+    second: pf2_112
+  - first:
+      213: -1833814977066113641
+    second: pf2_113
+  - first:
+      213: 1675897554037547272
+    second: pf2_114
+  - first:
+      213: -1420535793643618013
+    second: pf2_115
+  - first:
+      213: -7369846922974689868
+    second: pf2_116
+  - first:
+      213: 6940327397090740177
+    second: pf2_117
+  - first:
+      213: 1566870992448467566
+    second: pf2_118
+  - first:
+      213: 2895104233313579930
+    second: pf2_119
+  - first:
+      213: -8689750192902483801
+    second: pf2_120
+  - first:
+      213: 587354029822671378
+    second: pf2_121
+  - first:
+      213: 2895925108180674992
+    second: pf2_122
+  - first:
+      213: -8606108864613218535
+    second: pf2_123
+  - first:
+      213: -8024854181689817025
+    second: pf2_124
+  - first:
+      213: 7977573855816976793
+    second: pf2_125
+  - first:
+      213: -5459588203588752444
+    second: pf2_126
+  - first:
+      213: 3804854528088534015
+    second: pf2_127
+  - first:
+      213: 6602093805880745458
+    second: pf2_128
+  - first:
+      213: 4004049151568069812
+    second: pf2_129
+  - first:
+      213: 2952763380869260664
+    second: pf2_130
+  - first:
+      213: -1920941784668381974
+    second: pf2_131
+  - first:
+      213: -1195505312867789945
+    second: pf2_132
+  - first:
+      213: 4178668186218276212
+    second: pf2_133
+  - first:
+      213: 1970237784871352840
+    second: pf2_134
+  - first:
+      213: -2368552345364559066
+    second: pf2_135
+  - first:
+      213: -5541931712566082279
+    second: pf2_136
+  - first:
+      213: -8816684540487792639
+    second: pf2_137
+  - first:
+      213: -3253980114886110871
+    second: pf2_138
+  - first:
+      213: -5621691811335058109
+    second: pf2_139
+  - first:
+      213: -383922556344271461
+    second: pf2_140
+  - first:
+      213: -2246015123335155100
+    second: pf2_141
+  - first:
+      213: -4246961772447561461
+    second: pf2_142
+  - first:
+      213: -4500298531159263890
+    second: pf2_143
+  - first:
+      213: 5414987968295209447
+    second: pf2_144
+  - first:
+      213: 6712709963786335014
+    second: pf2_145
+  - first:
+      213: -8978590383867264136
+    second: pf2_146
+  - first:
+      213: -2929376492373917163
+    second: pf2_147
+  - first:
+      213: -283241176390045118
+    second: pf2_148
+  - first:
+      213: 609512087602567062
+    second: pf2_149
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pf2_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 600
+        width: 174
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb24f484255bc1500800000000000000
+      internalID: 368368634542637758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 614
+        width: 152
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babe57eb397032ce0800000000000000
+      internalID: -1431291925436699733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_2
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 697
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03aedc229a5063fd0800000000000000
+      internalID: -2362694730517714384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 626
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6820c14fec5e410800000000000000
+      internalID: 1505837198262568685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_4
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 630
+        width: 91
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1fdadf4a0e90c40800000000000000
+      internalID: 5479157420908212654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_5
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 665
+        width: 68
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092a94db835d4f3e0800000000000000
+      internalID: -2020755893111905648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_6
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 677
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba82e25d9db1b6c30800000000000000
+      internalID: 4353604087182141611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_7
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 693
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75690f660e2dcae20800000000000000
+      internalID: 3363294882980468311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_8
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 618
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b636e66f33e8a430800000000000000
+      internalID: 3794532547508450998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 588
+        width: 52
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9db7714e36d01b0800000000000000
+      internalID: -5688780923001382489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_10
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 658
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe017e1065a6daad0800000000000000
+      internalID: -2689376484838666001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_11
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 628
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0233acc45cc91a9a0800000000000000
+      internalID: -6223520838838504672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_12
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 642
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d735df5a9fcb7160800000000000000
+      internalID: 7024436305754142675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_13
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 586
+        width: 154
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421158bdee496e3a0800000000000000
+      internalID: -6636453247277788892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_14
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 622
+        width: 114
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414ffbd4da3e37d50800000000000000
+      internalID: 6733976201322296340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_15
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 586
+        width: 124
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d24892076d6cc70800000000000000
+      internalID: 8991109483312983429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_16
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 675
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440813213f6efdd60800000000000000
+      internalID: 7917300601597296708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_17
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 586
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5d80a21539d95e0800000000000000
+      internalID: -1901201490873625137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_18
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 665
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593a2a1920f4cdd80800000000000000
+      internalID: -8224611947033484395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_19
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 600
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76579ae588b8f33e0800000000000000
+      internalID: -2071783885747161753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_20
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 594
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741baed297db2f6e0800000000000000
+      internalID: -1805172172463099577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_21
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 633
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b07c99e13337ea00800000000000000
+      internalID: 785652949465198769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_22
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 586
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439a9e6091db07620800000000000000
+      internalID: 2769921686020663604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_23
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 634
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e3a83f121c34af0800000000000000
+      internalID: -413274389223948690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_24
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 632
+        width: 76
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48136e5c6b91ea80800000000000000
+      internalID: -8439293336973273010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_25
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 641
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b950637521186acd0800000000000000
+      internalID: -2547206623458884197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_26
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 616
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a25aa6ccf3c50bb0800000000000000
+      internalID: -4970351123301248351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_27
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 594
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8836307919e66f830800000000000000
+      internalID: 4104589681977680776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_28
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 616
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cffc0d6b91d1890800000000000000
+      internalID: -7485798732641862636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_29
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 651
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778f3f2050801d8d0800000000000000
+      internalID: -2823466673767188361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_30
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 657
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a4e43bc87edeba0800000000000000
+      internalID: -6057931332253758934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_31
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 612
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fe221c6b75c5a90800000000000000
+      internalID: -7323882451575312557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_32
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 639
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef21d63db1decc90800000000000000
+      internalID: -7147544947991695387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_33
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 608
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f956b4abc7568d0800000000000000
+      internalID: -2853737649298628832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_34
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 642
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58d3987fd5d2f320800000000000000
+      internalID: 2590367891468834909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_35
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 596
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cd4c040d8205480800000000000000
+      internalID: -8912578787661259626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_36
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 642
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30b7621284ff4c70800000000000000
+      internalID: 8957647023354916926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_37
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 642
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0217674030d64cc0800000000000000
+      internalID: -3727062735827561974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_38
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 644
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fa32baf94684140800000000000000
+      internalID: 4704120447722303347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_39
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 628
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882d9dcc5119cc160800000000000000
+      internalID: 7047167039745151624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_40
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 626
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b967fb6d2c76435f0800000000000000
+      internalID: -777882749104064869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_41
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 610
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23da215a9b6926b60800000000000000
+      internalID: 7737912833858514226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_42
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 586
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47106c7d3e54bdf0800000000000000
+      internalID: -165403668133177523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_43
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 630
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a11c35d4f5935960800000000000000
+      internalID: 7589574675831460259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_44
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 611
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0e44e192b820ca0800000000000000
+      internalID: -6052121940514774819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_45
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 626
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122170a11d31cce90800000000000000
+      internalID: -7004201531662200287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_46
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 596
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09884546a2717dab0800000000000000
+      internalID: -4983488991822837616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_47
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 630
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fe195f5dc850900800000000000000
+      internalID: 650080571800809260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_48
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 614
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccd06e598686a2c0800000000000000
+      internalID: -4420698059665515323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_49
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 600
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d84631d4d9e0c90800000000000000
+      internalID: -7201645799755444903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_50
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 614
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a682e41cb4fcfa420800000000000000
+      internalID: 2643559430562392170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_51
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 626
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91086fd781a0ca70800000000000000
+      internalID: 8845247273096446367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_52
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 610
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fac9d68469de9870800000000000000
+      internalID: 8691623356654013169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_53
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 598
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4767a825fe45c810800000000000000
+      internalID: 1784919642178283340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_54
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 614
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8aee572809aec2f0800000000000000
+      internalID: -950636618843231603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_55
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 594
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab94baaac9aab8ab0800000000000000
+      internalID: -5004718971037201990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_56
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 586
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc0bc0c406e80520800000000000000
+      internalID: 2668635687305809092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_57
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 594
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afe0ceb29b27a820800000000000000
+      internalID: 2929357991893331876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_58
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 597
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb3b3fda2be3c170800000000000000
+      internalID: 8197654316110789601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_59
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 595
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af867a58bcbb636d0800000000000000
+      internalID: -3011012818055501574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_60
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 608
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc1142bca9714ff0800000000000000
+      internalID: -53627937919787781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_61
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 610
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a980b6060885380800000000000000
+      internalID: -8982288305189512669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_62
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 594
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0e9db3e3f2f5fd0800000000000000
+      internalID: -2351108536125497162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_63
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 588
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec88d7322d1936440800000000000000
+      internalID: 4927942748998043854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_64
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 594
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82418f9ad1b06a4a0800000000000000
+      internalID: -6582561583321836504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_65
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 594
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dfd832d960d7850800000000000000
+      internalID: 6376259919402630524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_66
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 598
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14b2e5556c806120800000000000000
+      internalID: 2405076567876351005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_67
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 596
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3e6cd7c21311ee0800000000000000
+      internalID: -1292197550920113230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_68
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 610
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fac7fe810a424350800000000000000
+      internalID: 5999439024164948723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_69
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 608
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e27d22a5cc5a0010800000000000000
+      internalID: 1155838258273153767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_70
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 580
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435090a0a83439ca0800000000000000
+      internalID: -6011386817456569036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_71
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 597
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ac1600e3be8ab90800000000000000
+      internalID: -7230270550216422858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_72
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 593
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04f38f2e043b20e0800000000000000
+      internalID: -2293682349683772402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_73
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 594
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8a8a039ecf860d0800000000000000
+      internalID: -3429213037768693505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_74
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 592
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145a27a51c5901920800000000000000
+      internalID: 2959029612861105473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_75
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 610
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649ae4945053a9060800000000000000
+      internalID: 6960934470875523398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_76
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 588
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422cb06df2a441ed0800000000000000
+      internalID: -2444247128440323548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_77
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 588
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e715a3af669910260800000000000000
+      internalID: 7062094358257488254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_78
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 592
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4068f6fa63545f660800000000000000
+      internalID: 7418912062336632324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_79
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 594
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d24906d97f9c140800000000000000
+      internalID: 4740592338086407571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_80
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 596
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730f1a212043a9200800000000000000
+      internalID: 187519517996478519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_81
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 596
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5678891822c919e30800000000000000
+      internalID: 4508556373991655269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_82
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 597
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedb9a118b67ba340800000000000000
+      internalID: 4876121554501090795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_83
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 579
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65796644c51a0dce0800000000000000
+      internalID: -1382427667946105002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_84
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 586
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0833c081a08cb240800000000000000
+      internalID: 4808859933263214602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_85
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 591
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb398c888e7873510800000000000000
+      internalID: 1528840031312581564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_86
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 590
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e7d146b1786fd00800000000000000
+      internalID: 1006140118477405799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_87
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 586
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacd494e18981f3e0800000000000000
+      internalID: -2021683566733894485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_88
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 579
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc213acabc36b690800000000000000
+      internalID: -7586809749305217862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_89
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 600
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ef46ba0ff9e4400800000000000000
+      internalID: 310361280351632949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_90
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 586
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d17d50d818fdbfa0800000000000000
+      internalID: -5783193561015160360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_91
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 2137
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07134fbb6c09b3fa0800000000000000
+      internalID: -5819898910214966928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_92
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 580
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef2c2978dc7b49c0800000000000000
+      internalID: -3941919779645018135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_93
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 578
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11030b322ce7268b0800000000000000
+      internalID: -5160422850725662703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_94
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 575
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357b5237857ea35e0800000000000000
+      internalID: -1928975123299846317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_95
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 586
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1e93066bedbae30800000000000000
+      internalID: 4515947926248874438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_96
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 586
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4e085ecca768d60800000000000000
+      internalID: 7892130417455719605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_97
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 588
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7408f3259d3fb6fa0800000000000000
+      internalID: -5806279179850776505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_98
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 544
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36624065f94285e60800000000000000
+      internalID: 7951145408884123235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_99
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 95
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78bcdf40b7f0d5b0800000000000000
+      internalID: -5345500421062608771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_100
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 83
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826a5e28d2424c310800000000000000
+      internalID: 1424303160044135976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_101
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 91
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86652ec2796ed1740800000000000000
+      internalID: 5124505487984973416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_102
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 65
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97a186a580f577d0800000000000000
+      internalID: -2921164326465067110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_103
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 91
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93f29ba3d29f6980800000000000000
+      internalID: -8543448530284252261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_104
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 106
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213019ccf6e8bb9c0800000000000000
+      internalID: -3910375240616574190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_105
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 101
+        width: 13
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934459c05a13768e0800000000000000
+      internalID: -1700335749358599111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_106
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 83
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d401cc2c618ba74f0800000000000000
+      internalID: -830148773399490483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_107
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 77
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c397386e39d062320800000000000000
+      internalID: 2532726769321212220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_108
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 71
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8305738ffebb4ff20800000000000000
+      internalID: 3455593453435965496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_109
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 95
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b55065a2ec29aa0800000000000000
+      internalID: -6155631059434906845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_110
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 65
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6454b87af391e60800000000000000
+      internalID: 7933442207418500776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_111
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 101
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fb37851d9e82430800000000000000
+      internalID: 3758510974382096215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_112
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 81
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c435cb6910a99570800000000000000
+      internalID: 8473980204917011652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_113
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 69
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795ee2c8efafc86e0800000000000000
+      internalID: -1833814977066113641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_114
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 99
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801aa5432fbf14710800000000000000
+      internalID: 1675897554037547272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_115
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3210525d83e394ce0800000000000000
+      internalID: -1420535793643618013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_116
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 93
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5861b454b09b990800000000000000
+      internalID: -7369846922974689868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_117
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d741880ffef05060800000000000000
+      internalID: 6940327397090740177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_118
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 86
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6231c1bdd4aeb510800000000000000
+      internalID: 1566870992448467566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_119
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 87
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93b26616f97d2820800000000000000
+      internalID: 2895104233313579930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_120
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 99
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a05a256d3ec76780800000000000000
+      internalID: -8689750192902483801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_121
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 79
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a79f0d063b62800800000000000000
+      internalID: 587354029822671378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_122
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 91
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b96e39ea84603820800000000000000
+      internalID: 2895925108180674992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_123
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 79
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9178362b595f09880800000000000000
+      internalID: -8606108864613218535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_124
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f380216a3adf1a090800000000000000
+      internalID: -8024854181689817025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_125
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 68
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9990a65a72906be60800000000000000
+      internalID: 7977573855816976793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_126
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 71
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbed297475ab34b0800000000000000
+      internalID: -5459588203588752444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_127
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 47
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbe0c8c80f8dc430800000000000000
+      internalID: 3804854528088534015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_128
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 67
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd145946595f9b50800000000000000
+      internalID: 6602093805880745458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_129
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b44b6e2d7d319730800000000000000
+      internalID: 4004049151568069812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_130
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 63
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8756e7686a25af820800000000000000
+      internalID: 2952763380869260664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_131
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 61
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecd2aadf917755e0800000000000000
+      internalID: -1920941784668381974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_132
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 53
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7835c638046b86fe0800000000000000
+      internalID: -1195505312867789945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_133
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 65
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47524c9639c9df930800000000000000
+      internalID: 4178668186218276212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_134
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 53
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a3f4a93d0b75b10800000000000000
+      internalID: 1970237784871352840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_135
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 49
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b80a6e036312fd0800000000000000
+      internalID: -2368552345364559066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_136
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 47
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915c607487a1713b0800000000000000
+      internalID: -5541931712566082279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_137
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1080c8b8f18d4a580800000000000000
+      internalID: -8816684540487792639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_138
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 66
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961570a635a87d2d0800000000000000
+      internalID: -3253980114886110871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_139
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 49
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34dc6a4251dbbf1b0800000000000000
+      internalID: -5621691811335058109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_140
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 37
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9df6d718780caaf0800000000000000
+      internalID: -383922556344271461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_141
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 25
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462f37d252d84d0e0800000000000000
+      internalID: -2246015123335155100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_142
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 25
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b098992f4c2cf05c0800000000000000
+      internalID: -4246961772447561461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_143
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 45
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e653a0b545abb81c0800000000000000
+      internalID: -4500298531159263890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_144
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 47
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e900490ed6e52b40800000000000000
+      internalID: 5414987968295209447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_145
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 31
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623b5b78526582d50800000000000000
+      internalID: 6712709963786335014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_146
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 31
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8738ad1dd93a56380800000000000000
+      internalID: -8978590383867264136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_147
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 17
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5124ca6c993c857d0800000000000000
+      internalID: -2929376492373917163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_148
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 0
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242f18796a9b11cf0800000000000000
+      internalID: -283241176390045118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf2_149
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6979bdba30c657800800000000000000
+      internalID: 609512087602567062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pf2_0: 368368634542637758
+      pf2_1: -1431291925436699733
+      pf2_10: -2689376484838666001
+      pf2_100: 1424303160044135976
+      pf2_101: 5124505487984973416
+      pf2_102: -2921164326465067110
+      pf2_103: -8543448530284252261
+      pf2_104: -3910375240616574190
+      pf2_105: -1700335749358599111
+      pf2_106: -830148773399490483
+      pf2_107: 2532726769321212220
+      pf2_108: 3455593453435965496
+      pf2_109: -6155631059434906845
+      pf2_11: -6223520838838504672
+      pf2_110: 7933442207418500776
+      pf2_111: 3758510974382096215
+      pf2_112: 8473980204917011652
+      pf2_113: -1833814977066113641
+      pf2_114: 1675897554037547272
+      pf2_115: -1420535793643618013
+      pf2_116: -7369846922974689868
+      pf2_117: 6940327397090740177
+      pf2_118: 1566870992448467566
+      pf2_119: 2895104233313579930
+      pf2_12: 7024436305754142675
+      pf2_120: -8689750192902483801
+      pf2_121: 587354029822671378
+      pf2_122: 2895925108180674992
+      pf2_123: -8606108864613218535
+      pf2_124: -8024854181689817025
+      pf2_125: 7977573855816976793
+      pf2_126: -5459588203588752444
+      pf2_127: 3804854528088534015
+      pf2_128: 6602093805880745458
+      pf2_129: 4004049151568069812
+      pf2_13: -6636453247277788892
+      pf2_130: 2952763380869260664
+      pf2_131: -1920941784668381974
+      pf2_132: -1195505312867789945
+      pf2_133: 4178668186218276212
+      pf2_134: 1970237784871352840
+      pf2_135: -2368552345364559066
+      pf2_136: -5541931712566082279
+      pf2_137: -8816684540487792639
+      pf2_138: -3253980114886110871
+      pf2_139: -5621691811335058109
+      pf2_14: 6733976201322296340
+      pf2_140: -383922556344271461
+      pf2_141: -2246015123335155100
+      pf2_142: -4246961772447561461
+      pf2_143: -4500298531159263890
+      pf2_144: 5414987968295209447
+      pf2_145: 6712709963786335014
+      pf2_146: -8978590383867264136
+      pf2_147: -2929376492373917163
+      pf2_148: -283241176390045118
+      pf2_149: 609512087602567062
+      pf2_15: 8991109483312983429
+      pf2_16: 7917300601597296708
+      pf2_17: -1901201490873625137
+      pf2_18: -8224611947033484395
+      pf2_19: -2071783885747161753
+      pf2_2: -2362694730517714384
+      pf2_20: -1805172172463099577
+      pf2_21: 785652949465198769
+      pf2_22: 2769921686020663604
+      pf2_23: -413274389223948690
+      pf2_24: -8439293336973273010
+      pf2_25: -2547206623458884197
+      pf2_26: -4970351123301248351
+      pf2_27: 4104589681977680776
+      pf2_28: -7485798732641862636
+      pf2_29: -2823466673767188361
+      pf2_3: 1505837198262568685
+      pf2_30: -6057931332253758934
+      pf2_31: -7323882451575312557
+      pf2_32: -7147544947991695387
+      pf2_33: -2853737649298628832
+      pf2_34: 2590367891468834909
+      pf2_35: -8912578787661259626
+      pf2_36: 8957647023354916926
+      pf2_37: -3727062735827561974
+      pf2_38: 4704120447722303347
+      pf2_39: 7047167039745151624
+      pf2_4: 5479157420908212654
+      pf2_40: -777882749104064869
+      pf2_41: 7737912833858514226
+      pf2_42: -165403668133177523
+      pf2_43: 7589574675831460259
+      pf2_44: -6052121940514774819
+      pf2_45: -7004201531662200287
+      pf2_46: -4983488991822837616
+      pf2_47: 650080571800809260
+      pf2_48: -4420698059665515323
+      pf2_49: -7201645799755444903
+      pf2_5: -2020755893111905648
+      pf2_50: 2643559430562392170
+      pf2_51: 8845247273096446367
+      pf2_52: 8691623356654013169
+      pf2_53: 1784919642178283340
+      pf2_54: -950636618843231603
+      pf2_55: -5004718971037201990
+      pf2_56: 2668635687305809092
+      pf2_57: 2929357991893331876
+      pf2_58: 8197654316110789601
+      pf2_59: -3011012818055501574
+      pf2_6: 4353604087182141611
+      pf2_60: -53627937919787781
+      pf2_61: -8982288305189512669
+      pf2_62: -2351108536125497162
+      pf2_63: 4927942748998043854
+      pf2_64: -6582561583321836504
+      pf2_65: 6376259919402630524
+      pf2_66: 2405076567876351005
+      pf2_67: -1292197550920113230
+      pf2_68: 5999439024164948723
+      pf2_69: 1155838258273153767
+      pf2_7: 3363294882980468311
+      pf2_70: -6011386817456569036
+      pf2_71: -7230270550216422858
+      pf2_72: -2293682349683772402
+      pf2_73: -3429213037768693505
+      pf2_74: 2959029612861105473
+      pf2_75: 6960934470875523398
+      pf2_76: -2444247128440323548
+      pf2_77: 7062094358257488254
+      pf2_78: 7418912062336632324
+      pf2_79: 4740592338086407571
+      pf2_8: 3794532547508450998
+      pf2_80: 187519517996478519
+      pf2_81: 4508556373991655269
+      pf2_82: 4876121554501090795
+      pf2_83: -1382427667946105002
+      pf2_84: 4808859933263214602
+      pf2_85: 1528840031312581564
+      pf2_86: 1006140118477405799
+      pf2_87: -2021683566733894485
+      pf2_88: -7586809749305217862
+      pf2_89: 310361280351632949
+      pf2_9: -5688780923001382489
+      pf2_90: -5783193561015160360
+      pf2_91: -5819898910214966928
+      pf2_92: -3941919779645018135
+      pf2_93: -5160422850725662703
+      pf2_94: -1928975123299846317
+      pf2_95: 4515947926248874438
+      pf2_96: 7892130417455719605
+      pf2_97: -5806279179850776505
+      pf2_98: 7951145408884123235
+      pf2_99: -5345500421062608771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

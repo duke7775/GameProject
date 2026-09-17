@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: df269ebe0727f5b44ac192e67804f293
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2157080333762735975
+    second: pf7_0
+  - first:
+      213: -9152199624736418938
+    second: pf7_1
+  - first:
+      213: 3230423407419818644
+    second: pf7_2
+  - first:
+      213: 5335694879657956149
+    second: pf7_3
+  - first:
+      213: 3179844766138495034
+    second: pf7_4
+  - first:
+      213: -5463334419211900536
+    second: pf7_5
+  - first:
+      213: -4536090726710363312
+    second: pf7_6
+  - first:
+      213: -8834802158322304935
+    second: pf7_7
+  - first:
+      213: -3767558433094547442
+    second: pf7_8
+  - first:
+      213: -6426953455067437637
+    second: pf7_9
+  - first:
+      213: 5410838881044169388
+    second: pf7_10
+  - first:
+      213: 4436242454883864508
+    second: pf7_11
+  - first:
+      213: -1012542712303800369
+    second: pf7_12
+  - first:
+      213: -3466795408669518932
+    second: pf7_13
+  - first:
+      213: 8324531537319629415
+    second: pf7_14
+  - first:
+      213: -4652717693173031696
+    second: pf7_15
+  - first:
+      213: -1393608309524840847
+    second: pf7_16
+  - first:
+      213: -312924169260819975
+    second: pf7_17
+  - first:
+      213: -5779538417988124940
+    second: pf7_18
+  - first:
+      213: 7650012716028275591
+    second: pf7_19
+  - first:
+      213: -4613701774500316083
+    second: pf7_20
+  - first:
+      213: 1036802911846330877
+    second: pf7_21
+  - first:
+      213: -933041388703762246
+    second: pf7_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pf7_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 79
+        width: 2123
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990571a7dd28012e0800000000000000
+      internalID: -2157080333762735975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_1
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 562
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6835f168eeadcf080800000000000000
+      internalID: -9152199624736418938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_2
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 563
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4928d5939f4c4dc20800000000000000
+      internalID: 3230423407419818644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 544
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53312eb29323c0a40800000000000000
+      internalID: 5335694879657956149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_4
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 547
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30f19e97f3112c20800000000000000
+      internalID: 3179844766138495034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_5
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 548
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889a5bdaa465e24b0800000000000000
+      internalID: -5463334419211900536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_6
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 546
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b3c7d64819c01c0800000000000000
+      internalID: -4536090726710363312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 522
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958385cee3a746580800000000000000
+      internalID: -8834802158322304935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_8
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 516
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e084fd40191f6bbc0800000000000000
+      internalID: -3767558433094547442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 144
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb56cb252efdec6a0800000000000000
+      internalID: -6426953455067437637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 144
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca282816b49271b40800000000000000
+      internalID: 5410838881044169388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 146
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf0cdc2203b09d30800000000000000
+      internalID: 4436242454883864508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_12
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 144
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfa83194c9b2f1f0800000000000000
+      internalID: -1012542712303800369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_13
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 146
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca35c4591f773efc0800000000000000
+      internalID: -3466795408669518932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_14
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 144
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7621973f35da68370800000000000000
+      internalID: 8324531537319629415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_15
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 146
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc1f32c8e93e6fb0800000000000000
+      internalID: -4652717693173031696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_16
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e3dba40a8e8ace0800000000000000
+      internalID: -1393608309524840847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_17
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 144
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f91391402548abf0800000000000000
+      internalID: -312924169260819975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_18
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 146
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe381e1e64facfa0800000000000000
+      internalID: -5779538417988124940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_19
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 150
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b2612a80e4a2a60800000000000000
+      internalID: 7650012716028275591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_20
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 146
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cb1573ea6d8ffb0800000000000000
+      internalID: -4613701774500316083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_21
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 146
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1f0be41c6736e00800000000000000
+      internalID: 1036802911846330877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pf7_22
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 144
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab83399eccb2d03f0800000000000000
+      internalID: -933041388703762246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pf7_0: -2157080333762735975
+      pf7_1: -9152199624736418938
+      pf7_10: 5410838881044169388
+      pf7_11: 4436242454883864508
+      pf7_12: -1012542712303800369
+      pf7_13: -3466795408669518932
+      pf7_14: 8324531537319629415
+      pf7_15: -4652717693173031696
+      pf7_16: -1393608309524840847
+      pf7_17: -312924169260819975
+      pf7_18: -5779538417988124940
+      pf7_19: 7650012716028275591
+      pf7_2: 3230423407419818644
+      pf7_20: -4613701774500316083
+      pf7_21: 1036802911846330877
+      pf7_22: -933041388703762246
+      pf7_3: 5335694879657956149
+      pf7_4: 3179844766138495034
+      pf7_5: -5463334419211900536
+      pf7_6: -4536090726710363312
+      pf7_7: -8834802158322304935
+      pf7_8: -3767558433094547442
+      pf7_9: -6426953455067437637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

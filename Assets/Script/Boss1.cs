@@ -3,25 +3,33 @@ using UnityEngine;
 public class BoarBoss : MonoBehaviour
 {
     public int maxHealth = 100;
+
     public float walkSpeed = 1.5f;
     public float runSpeed = 4f;
-    public float detectRange = 6f;
+
     public float attackRange = 2f;
     public float attackCooldown = 1.2f;
+
     public float chargeTime = 1.5f;
+    public float restTime = 1.5f;
+
+    public int attackDamage = 2;
+    public int chargeDamage = 3;
 
     private int currentHealth;
     private int phase = 1;
 
-    private Rigidbody2D rb;
     private Animator animator;
     private Transform player;
 
+    private bool introFinished = false;
     private bool isAttacking = false;
     private bool isCharging = false;
+    private bool isResting = false;
 
     private float attackTimer = 0f;
     private float chargeTimer = 0f;
+    private float restTimer = 0f;
 
     private int chargeDirection = 1;
 
@@ -29,10 +37,10 @@ public class BoarBoss : MonoBehaviour
     {
         currentHealth = maxHealth;
 
-        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        GameObject playerObject =
+            GameObject.FindGameObjectWithTag("Player");
 
         if (playerObject != null)
         {
@@ -46,128 +54,145 @@ public class BoarBoss : MonoBehaviour
         {
             attackTimer -= Time.deltaTime;
         }
-    }
 
-    void FixedUpdate()
-    {
+        if (!introFinished)
+        {
+            return;
+        }
+
         if (player == null)
         {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-            animator.SetFloat("speed", 0);
             return;
         }
 
         if (phase == 2)
         {
             Phase2Behavior();
-            return;
         }
+        else
+        {
+            Phase1Behavior();
+        }
+    }
 
-        Phase1Behavior();
+    public void FinishIntro()
+    {
+        introFinished = true;
     }
 
     void Phase1Behavior()
     {
-        float distance = Vector2.Distance(
-            transform.position,
-            player.position
-        );
-
-        if (distance > detectRange)
+        if (isAttacking)
         {
-            rb.linearVelocity = new Vector2(
-                0,
-                rb.linearVelocity.y
-            );
-
-            animator.SetFloat("speed", 0);
+            animator.SetFloat("Speed", 0);
             return;
         }
 
+        float distance = Mathf.Abs(
+            player.position.x - transform.position.x
+        );
+
         if (distance <= attackRange)
         {
-            rb.linearVelocity = new Vector2(
-                0,
-                rb.linearVelocity.y
-            );
-
-            animator.SetFloat("speed", 0);
+            animator.SetFloat("Speed", 0);
 
             FacePlayer();
 
-            if (!isAttacking && attackTimer <= 0)
+            if (attackTimer <= 0)
             {
-                isAttacking = true;
-                attackTimer = attackCooldown;
-
-                animator.SetTrigger("attack");
-
-                Invoke(nameof(FinishAttack), 0.8f);
+                StartAttack();
             }
 
             return;
         }
 
-        float direction = Mathf.Sign(
+        int direction =
+            player.position.x > transform.position.x ? 1 : -1;
+
+        transform.position += Vector3.right *
+                             direction *
+                             walkSpeed *
+                             Time.deltaTime;
+
+        animator.SetFloat("Speed", walkSpeed);
+
+        FaceDirection(direction);
+    }
+
+    void StartAttack()
+    {
+        isAttacking = true;
+        attackTimer = attackCooldown;
+
+        animator.SetFloat("Speed", 0);
+        animator.SetTrigger("Attack");
+    }
+
+    public void AttackPlayer()
+    {
+        if (!isAttacking || player == null)
+        {
+            return;
+        }
+
+        float distance = Mathf.Abs(
             player.position.x - transform.position.x
         );
 
-        rb.linearVelocity = new Vector2(
-            direction * walkSpeed,
-            rb.linearVelocity.y
-        );
+        if (distance <= attackRange)
+        {
+            PlayerHealth playerHealth =
+                player.GetComponent<PlayerHealth>();
 
-        animator.SetFloat("speed", walkSpeed);
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(attackDamage);
+            }
+        }
+    }
 
-        FacePlayer();
+    public void FinishAttack()
+    {
+        isAttacking = false;
     }
 
     void Phase2Behavior()
     {
-        if (isCharging)
+        if (isResting)
         {
-            chargeTimer -= Time.fixedDeltaTime;
+            restTimer -= Time.deltaTime;
 
-            rb.linearVelocity = new Vector2(
-                chargeDirection * runSpeed,
-                rb.linearVelocity.y
-            );
+            animator.SetFloat("Speed", 0);
 
-            animator.SetFloat("speed", runSpeed);
-
-            if (chargeTimer <= 0)
+            if (restTimer <= 0)
             {
-                isCharging = false;
-
-                rb.linearVelocity = new Vector2(
-                    0,
-                    rb.linearVelocity.y
-                );
-
-                animator.SetFloat("speed", 0);
+                isResting = false;
+                StartCharge();
             }
 
             return;
         }
 
-        float distance = Vector2.Distance(
-            transform.position,
-            player.position
-        );
-
-        if (distance <= detectRange)
+        if (isCharging)
         {
-            StartCharge();
-        }
-        else
-        {
-            rb.linearVelocity = new Vector2(
-                0,
-                rb.linearVelocity.y
-            );
+            chargeTimer -= Time.deltaTime;
 
-            animator.SetFloat("speed", 0);
+            transform.position += Vector3.right *
+                                 chargeDirection *
+                                 runSpeed *
+                                 Time.deltaTime;
+
+            animator.SetFloat("Speed", runSpeed);
+
+            if (chargeTimer <= 0)
+            {
+                EndCharge();
+            }
+
+            return;
         }
+
+        StartCharge();
     }
 
     void StartCharge()
@@ -175,35 +200,31 @@ public class BoarBoss : MonoBehaviour
         isCharging = true;
         chargeTimer = chargeTime;
 
-        if (player.position.x > transform.position.x)
-        {
-            chargeDirection = 1;
-        }
-        else
-        {
-            chargeDirection = -1;
-        }
+        chargeDirection =
+            player.position.x > transform.position.x ? 1 : -1;
 
         FaceDirection(chargeDirection);
 
-        animator.SetFloat("speed", runSpeed);
+        animator.Play("boss_run");
+        animator.SetFloat("Speed", runSpeed);
     }
 
-    void FinishAttack()
+    void EndCharge()
     {
-        isAttacking = false;
+        isCharging = false;
+        isResting = true;
+        restTimer = restTime;
+
+        animator.SetFloat("Speed", 0);
+        animator.Play("boss_reset");
     }
 
     void FacePlayer()
     {
-        if (player.position.x > transform.position.x)
-        {
-            FaceDirection(1);
-        }
-        else
-        {
-            FaceDirection(-1);
-        }
+        int direction =
+            player.position.x > transform.position.x ? 1 : -1;
+
+        FaceDirection(direction);
     }
 
     void FaceDirection(int direction)
@@ -213,6 +234,27 @@ public class BoarBoss : MonoBehaviour
             transform.localScale.y,
             transform.localScale.z
         );
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!collision.gameObject.CompareTag("Player"))
+        {
+            return;
+        }
+
+        PlayerHealth playerHealth =
+            collision.gameObject.GetComponent<PlayerHealth>();
+
+        if (playerHealth != null && phase == 2 && isCharging)
+        {
+            playerHealth.TakeDamage(chargeDamage);
+        }
+
+        if (isCharging)
+        {
+            EndCharge();
+        }
     }
 
     public void TakeDamage(int damage)
@@ -228,6 +270,7 @@ public class BoarBoss : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            currentHealth = 0;
             Die();
             return;
         }
@@ -236,19 +279,22 @@ public class BoarBoss : MonoBehaviour
         {
             phase = 2;
 
-            Debug.Log("Boss Phase 2!");
-
             isAttacking = false;
             isCharging = false;
+            isResting = false;
+
+            attackTimer = 0;
+
+            animator.SetFloat("Speed", 0);
+
+            Debug.Log("Boss Phase 2!");
         }
     }
 
     void Die()
     {
-        rb.linearVelocity = Vector2.zero;
-
-        animator.SetFloat("speed", 0);
-        animator.SetTrigger("dead");
+        animator.SetFloat("Speed", 0);
+        animator.SetTrigger("Dead");
 
         enabled = false;
     }
