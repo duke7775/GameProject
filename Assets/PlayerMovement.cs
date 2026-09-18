@@ -64,11 +64,13 @@ public class PlayerMovement : MonoBehaviour
         {
             if (move > 0)
             {
-                transform.localScale = new Vector3(1, 1, 1);
+                transform.localScale =
+                    new Vector3(1, 1, 1);
             }
             else if (move < 0)
             {
-                transform.localScale = new Vector3(-1, 1, 1);
+                transform.localScale =
+                    new Vector3(-1, 1, 1);
             }
         }
 
@@ -99,25 +101,30 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S) &&
             currentDropPlatform != null)
         {
-            StartCoroutine(DropThroughPlatform());
+            StartCoroutine(
+                DropThroughPlatform()
+            );
         }
     }
 
     public void Attack()
     {
-        Vector2 attackPosition = transform.position;
+        Vector2 attackPosition =
+            transform.position;
 
         attackPosition.x +=
             transform.localScale.x * attackRange;
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(
-            attackPosition,
-            0.8f
-        );
+        Collider2D[] hits =
+            Physics2D.OverlapCircleAll(
+                attackPosition,
+                0.8f
+            );
 
         foreach (Collider2D hit in hits)
         {
-            Boss0 boss = hit.GetComponent<Boss0>();
+            Boss0 boss =
+                hit.GetComponent<Boss0>();
 
             if (boss != null)
             {
@@ -125,11 +132,34 @@ public class PlayerMovement : MonoBehaviour
                 continue;
             }
 
-            EnemyHealth enemy = hit.GetComponent<EnemyHealth>();
+            Boss2 boss2 =
+                hit.GetComponent<Boss2>();
+
+            if (boss2 != null)
+            {
+                boss2.TakeDamage(attackDamage);
+                continue;
+            }
+
+            Boss2Final boss2Final =
+                hit.GetComponent<Boss2Final>();
+
+            if (boss2Final != null)
+            {
+                boss2Final.TakeDamage(
+                    attackDamage
+                );
+                continue;
+            }
+
+            EnemyHealth enemy =
+                hit.GetComponent<EnemyHealth>();
 
             if (enemy != null)
             {
-                enemy.TakeDamage(attackDamage);
+                enemy.TakeDamage(
+                    attackDamage
+                );
             }
         }
     }
@@ -139,7 +169,9 @@ public class PlayerMovement : MonoBehaviour
         isAttacking = false;
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(
+        Collision2D collision
+    )
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
@@ -149,13 +181,18 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (collision.gameObject.layer ==
-            LayerMask.NameToLayer("DropPlatform"))
+            LayerMask.NameToLayer(
+                "DropPlatform"
+            ))
         {
-            currentDropPlatform = collision.collider;
+            currentDropPlatform =
+                collision.collider;
         }
     }
 
-    void OnCollisionExit2D(Collision2D collision)
+    void OnCollisionExit2D(
+        Collision2D collision
+    )
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
@@ -172,7 +209,8 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (collision.collider == currentDropPlatform)
+        if (collision.collider ==
+            currentDropPlatform)
         {
             currentDropPlatform = null;
         }
@@ -180,10 +218,12 @@ public class PlayerMovement : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        Vector2 attackPosition = transform.position;
+        Vector2 attackPosition =
+            transform.position;
 
         attackPosition.x +=
-            transform.localScale.x * attackRange;
+            transform.localScale.x *
+            attackRange;
 
         Gizmos.DrawWireSphere(
             attackPosition,
@@ -202,10 +242,13 @@ public class PlayerMovement : MonoBehaviour
             true
         );
 
-        Collider2D platform = currentDropPlatform;
+        Collider2D platform =
+            currentDropPlatform;
 
-        while (playerCollider.bounds.max.y >
-               platform.bounds.min.y)
+        while (
+            playerCollider.bounds.max.y >
+            platform.bounds.min.y
+        )
         {
             yield return null;
         }

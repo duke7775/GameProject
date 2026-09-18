@@ -51,24 +51,25 @@ public class DroneEnemy : MonoBehaviour
 
     void FindPlayer()
     {
-        Collider2D hit = Physics2D.OverlapCircle(
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
             transform.position,
             detectRange
         );
 
-        if (hit != null && hit.CompareTag("Player"))
-        {
-            PlayerHealth target =
-                hit.GetComponent<PlayerHealth>();
+        player = null;
 
-            if (target != null)
-            {
-                player = target;
-            }
-        }
-        else
+        foreach (Collider2D hit in hits)
         {
-            player = null;
+            if (hit.CompareTag("Player"))
+            {
+                PlayerHealth target = hit.GetComponent<PlayerHealth>();
+
+                if (target != null)
+                {
+                    player = target;
+                    return;
+                }
+            }
         }
     }
 
