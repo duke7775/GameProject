@@ -18,6 +18,16 @@ public class Boss0 : MonoBehaviour
     public float restTime = 1.5f;
     public int chargeDamage = 4;
 
+    public GameObject hpPrefab;
+    public GameObject attackSpeedPrefab;
+    public GameObject jumpPrefab;
+    public GameObject portalPrefab;
+
+    public float rewardSpawnX = 210f;
+    public float portalSpawnX = 220f;
+
+    public float destroyDelay = 0.3f;
+
     private int currentHealth;
     private int phase = 1;
 
@@ -53,10 +63,12 @@ public class Boss0 : MonoBehaviour
         if (playerObject != null)
         {
             player = playerObject.transform;
-            playerCollider = playerObject.GetComponent<Collider2D>();
+            playerCollider =
+                playerObject.GetComponent<Collider2D>();
         }
 
-        direction = transform.localScale.x >= 0 ? 1 : -1;
+        direction =
+            transform.localScale.x >= 0 ? 1 : -1;
     }
 
     void FixedUpdate()
@@ -67,7 +79,8 @@ public class Boss0 : MonoBehaviour
             return;
         }
 
-        if (currentHealth <= 20 && phase == 1)
+        if (currentHealth <= 20 &&
+            phase == 1)
         {
             EnterPhase2();
             return;
@@ -94,7 +107,8 @@ public class Boss0 : MonoBehaviour
             return;
         }
 
-        if (player == null || playerCollider == null)
+        if (player == null ||
+            playerCollider == null)
         {
             StopMoving();
             return;
@@ -114,7 +128,9 @@ public class Boss0 : MonoBehaviour
         {
             direction =
                 playerCollider.bounds.center.x >
-                bossCollider.bounds.center.x ? 1 : -1;
+                bossCollider.bounds.center.x
+                ? 1
+                : -1;
 
             FaceDirection();
 
@@ -136,7 +152,10 @@ public class Boss0 : MonoBehaviour
                 rb.linearVelocity.y
             );
 
-            animator.SetFloat("Speed", walkSpeed);
+            animator.SetFloat(
+                "Speed",
+                walkSpeed
+            );
 
             return;
         }
@@ -152,11 +171,20 @@ public class Boss0 : MonoBehaviour
 
         rb.linearVelocity = Vector2.zero;
 
-        animator.SetFloat("Speed", 0);
+        animator.SetFloat(
+            "Speed",
+            0
+        );
 
-        animator.Play("boss0_attack0", 0, 0f);
+        animator.Play(
+            "boss0_attack0",
+            0,
+            0f
+        );
 
-        Debug.Log("========== BOSS START ATTACK ==========");
+        Debug.Log(
+            "========== BOSS START ATTACK =========="
+        );
     }
 
     public void AttackPlayer()
@@ -188,7 +216,9 @@ public class Boss0 : MonoBehaviour
 
             if (playerHealth != null)
             {
-                playerHealth.TakeDamage(attackDamage);
+                playerHealth.TakeDamage(
+                    attackDamage
+                );
 
                 hasHitPlayer = true;
             }
@@ -199,9 +229,14 @@ public class Boss0 : MonoBehaviour
     {
         isAttacking = false;
 
-        if (!isDead && phase == 1)
+        if (!isDead &&
+            phase == 1)
         {
-            animator.Play("boss0_walk", 0, 0f);
+            animator.Play(
+                "boss0_walk",
+                0,
+                0f
+            );
         }
     }
 
@@ -219,9 +254,14 @@ public class Boss0 : MonoBehaviour
 
         rb.linearVelocity = Vector2.zero;
 
-        animator.SetFloat("Speed", 0);
+        animator.SetFloat(
+            "Speed",
+            0
+        );
 
-        Debug.Log("========== BOSS PHASE 2 START ==========");
+        Debug.Log(
+            "========== BOSS PHASE 2 START =========="
+        );
 
         StartCharge();
     }
@@ -237,7 +277,10 @@ public class Boss0 : MonoBehaviour
                 rb.linearVelocity.y
             );
 
-            animator.SetFloat("Speed", 0);
+            animator.SetFloat(
+                "Speed",
+                0
+            );
 
             if (restTimer <= 0)
             {
@@ -256,7 +299,10 @@ public class Boss0 : MonoBehaviour
                 rb.linearVelocity.y
             );
 
-            animator.SetFloat("Speed", chargeSpeed);
+            animator.SetFloat(
+                "Speed",
+                chargeSpeed
+            );
 
             if (chargeTimer <= 0)
             {
@@ -283,15 +329,27 @@ public class Boss0 : MonoBehaviour
         chargeTimer = chargeTime;
 
         direction =
-            player.position.x > transform.position.x ? 1 : -1;
+            player.position.x >
+            transform.position.x
+            ? 1
+            : -1;
 
         FaceDirection();
 
-        animator.Play("boss0_walk", 0, 0f);
+        animator.Play(
+            "boss0_walk",
+            0,
+            0f
+        );
 
-        animator.SetFloat("Speed", chargeSpeed);
+        animator.SetFloat(
+            "Speed",
+            chargeSpeed
+        );
 
-        Debug.Log("========== BOSS CHARGE ==========");
+        Debug.Log(
+            "========== BOSS CHARGE =========="
+        );
     }
 
     void StopCharge()
@@ -306,14 +364,22 @@ public class Boss0 : MonoBehaviour
             rb.linearVelocity.y
         );
 
-        animator.SetFloat("Speed", 0);
+        animator.SetFloat(
+            "Speed",
+            0
+        );
 
-        Debug.Log("========== BOSS REST ==========");
+        Debug.Log(
+            "========== BOSS REST =========="
+        );
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(
+        Collision2D collision
+    )
     {
-        if (!isCharging || isDead)
+        if (!isCharging ||
+            isDead)
         {
             return;
         }
@@ -323,13 +389,18 @@ public class Boss0 : MonoBehaviour
             PlayerHealth playerHealth =
                 collision.gameObject.GetComponent<PlayerHealth>();
 
-            if (playerHealth != null && !hasHitPlayer)
+            if (playerHealth != null &&
+                !hasHitPlayer)
             {
-                playerHealth.TakeDamage(chargeDamage);
+                playerHealth.TakeDamage(
+                    chargeDamage
+                );
 
                 hasHitPlayer = true;
 
-                Debug.Log("========== BOSS CHARGE HIT ==========");
+                Debug.Log(
+                    "========== BOSS CHARGE HIT =========="
+                );
             }
         }
     }
@@ -348,28 +419,132 @@ public class Boss0 : MonoBehaviour
             currentHealth = 0;
         }
 
-        Debug.Log("Boss0 HP: " + currentHealth);
+        Debug.Log(
+            "Boss0 HP: " +
+            currentHealth
+        );
 
         if (currentHealth <= 0)
         {
             Die();
         }
     }
+    public int GetCurrentHealth()
+{
+    return currentHealth;
+}
 
     void Die()
     {
+        if (isDead)
+        {
+            return;
+        }
+
         isDead = true;
+
         isAttacking = false;
         isCharging = false;
         isResting = false;
 
         rb.linearVelocity = Vector2.zero;
 
-        animator.SetFloat("Speed", 0);
+        if (bossCollider != null)
+        {
+            bossCollider.enabled = false;
+        }
 
-        animator.Play("boss0_death", 0, 0f);
+        rb.simulated = false;
 
-        Debug.Log("========== BOSS DEFEATED ==========");
+        animator.SetFloat(
+            "Speed",
+            0
+        );
+
+        Vector3 rewardPosition =
+            new Vector3(
+                rewardSpawnX,
+                transform.position.y,
+                transform.position.z
+            );
+
+        float spacing = 1.5f;
+
+        if (hpPrefab != null)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                float x =
+                    (i - 2) * spacing;
+
+                Instantiate(
+                    hpPrefab,
+                    rewardPosition +
+                    new Vector3(
+                        x,
+                        0,
+                        0
+                    ),
+                    Quaternion.identity
+                );
+            }
+        }
+
+        if (attackSpeedPrefab != null)
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                float x =
+                    (i + 3) * spacing;
+
+                Instantiate(
+                    attackSpeedPrefab,
+                    rewardPosition +
+                    new Vector3(
+                        x,
+                        0,
+                        0
+                    ),
+                    Quaternion.identity
+                );
+            }
+        }
+
+        if (jumpPrefab != null)
+        {
+            Instantiate(
+                jumpPrefab,
+                rewardPosition +
+                new Vector3(
+                    5 * spacing,
+                    0,
+                    0
+                ),
+                Quaternion.identity
+            );
+        }
+
+        if (portalPrefab != null)
+        {
+            Instantiate(
+                portalPrefab,
+                new Vector3(
+                    portalSpawnX,
+                    transform.position.y,
+                    transform.position.z
+                ),
+                Quaternion.identity
+            );
+        }
+
+        Debug.Log(
+            "========== BOSS DEFEATED =========="
+        );
+
+        Destroy(
+            gameObject,
+            destroyDelay
+        );
     }
 
     void StopMoving()
@@ -379,15 +554,22 @@ public class Boss0 : MonoBehaviour
             rb.linearVelocity.y
         );
 
-        animator.SetFloat("Speed", 0);
+        animator.SetFloat(
+            "Speed",
+            0
+        );
     }
 
     void FaceDirection()
     {
-        transform.localScale = new Vector3(
-            direction * Mathf.Abs(transform.localScale.x),
-            transform.localScale.y,
-            transform.localScale.z
-        );
+        transform.localScale =
+            new Vector3(
+                direction *
+                Mathf.Abs(
+                    transform.localScale.x
+                ),
+                transform.localScale.y,
+                transform.localScale.z
+            );
     }
 }

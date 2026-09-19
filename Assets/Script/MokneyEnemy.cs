@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 
 public class MonkeyEnemy : MonoBehaviour
 {
@@ -8,8 +7,8 @@ public class MonkeyEnemy : MonoBehaviour
     public float maxSpeed = 1.8f;
 
     public float chaseRange = 5f;
-    public float attackRange = 2f;
-    public float attackYRange = 1f;
+    public float attackRange = 1.5f;
+    public float attackYRange = 1.5f;
     public float turnDeadZone = 0.5f;
 
     public float minPatrolTime = 2f;
@@ -19,29 +18,33 @@ public class MonkeyEnemy : MonoBehaviour
     public float maxPauseTime = 1.5f;
 
     public int attackDamage = 1;
-    public float attackHitDelay = 0.4f;
+    public float attackDuration = 0.8f;
+    public float attackHitDelay = 0.3f;
+    public float attackCooldown = 1.5f;
 
     public float minStartDelay = 0f;
     public float maxStartDelay = 2f;
 
-    private int direction = 1;
-
     private Rigidbody2D rb;
     private Animator animator;
-    private Transform player;
     private Collider2D monkeyCollider;
+    private Transform player;
 
+    private int direction = 1;
+
+    private bool isDead = false;
     private bool isAttacking = false;
     private bool hasHitPlayer = false;
-    private bool avoidingEdge = false;
     private bool patrolling = false;
     private bool patrolStarted = false;
+    private bool avoidingEdge = false;
 
-    private float attackCooldown = 1.5f;
-    private float attackTimer = 0f;
-    private float edgeAvoidTimer = 0f;
     private float patrolTimer = 0f;
     private float pauseTimer = 0f;
+    private float attackTimer = 0f;
+    private float attackAnimationTimer = 0f;
+    private float attackHitTimer = 0f;
+    private float edgeAvoidTimer = 0f;
     private float patrolSpeed;
 
     void Start()
@@ -66,50 +69,86 @@ public class MonkeyEnemy : MonoBehaviour
             maxSpeed
         );
 
-        StartCoroutine(
-            DelayedPatrol()
+        Invoke(
+            nameof(StartInitialPatrol),
+            Random.Range(
+                minStartDelay,
+                maxStartDelay
+            )
         );
 
-        MonkeyEnemy[] monkeys =
-            FindObjectsByType<MonkeyEnemy>(
-                FindObjectsSortMode.None
-            );
-
-        foreach (MonkeyEnemy monkey in monkeys)
-        {
-            if (monkey != this)
-            {
-                Collider2D otherCollider =
-                    monkey.GetComponent<Collider2D>();
-
-                if (otherCollider != null &&
-                    monkeyCollider != null)
-                {
-                    Physics2D.IgnoreCollision(
-                        monkeyCollider,
-                        otherCollider,
-                        true
-                    );
-                }
-            }
-        }
-    }
-
-    IEnumerator DelayedPatrol()
-    {
-        float delay = Random.Range(
-            minStartDelay,
-            maxStartDelay
-        );
-
-        yield return new WaitForSeconds(delay);
-
-        patrolStarted = true;
-
-        StartPatrol();
+        IgnoreOtherMonkeys();
     }
 
     void FixedUpdate()
+    {
+        if (isDead)
+        {
+            return;
+        }
+
+        UpdateTimers();
+
+        if (isAttacking)
+        {
+            UpdateAttack();
+            return;
+        }
+
+        if (!patrolStarted)
+        {
+            StopMovement();
+            SetAnimationSpeed(0);
+            return;
+        }
+
+        if (player == null)
+        {
+            Patrol();
+            return;
+        }
+
+        Collider2D playerCollider =
+            player.GetComponent<Collider2D>();
+
+        if (playerCollider != null &&
+            monkeyCollider != null)
+        {
+            float xDistance = Mathf.Abs(
+                playerCollider.bounds.center.x -
+                monkeyCollider.bounds.center.x
+            );
+
+            float yDistance = Mathf.Abs(
+                playerCollider.bounds.center.y -
+                monkeyCollider.bounds.center.y
+            );
+
+            if (xDistance <= attackRange &&
+                yDistance <= attackYRange)
+            {
+                StopMovement();
+                FacePlayer();
+
+                if (attackTimer <= 0)
+                {
+                    StartAttack();
+                }
+
+                return;
+            }
+
+            if (xDistance <= chaseRange)
+            {
+                ChasePlayer();
+                return;
+            }
+        }
+
+        Patrol();
+    }
+
+    void UpdateTimers()
     {
         if (attackTimer > 0)
         {
@@ -124,177 +163,110 @@ public class MonkeyEnemy : MonoBehaviour
         {
             avoidingEdge = false;
         }
+    }
 
-        if (isAttacking)
+    void StartInitialPatrol()
+    {
+        if (isDead)
         {
-            rb.linearVelocity = new Vector2(
-                0,
-                rb.linearVelocity.y
-            );
-
             return;
         }
 
-        if (!patrolStarted)
-        {
-            rb.linearVelocity = new Vector2(
-                0,
-                rb.linearVelocity.y
-            );
+        patrolStarted = true;
 
-            animator.SetFloat(
-                "Speed",
-                0
-            );
-
-            return;
-        }
-
-        if (player == null)
-        {
-            Patrol();
-            return;
-        }
-
-        float xDistance = Mathf.Abs(
-            player.position.x -
-            transform.position.x
-        );
-
-        float yDistance = Mathf.Abs(
-            player.position.y -
-            transform.position.y
-        );
-
-        if (xDistance <= attackRange &&
-            yDistance <= attackYRange)
-        {
-            rb.linearVelocity = new Vector2(
-                0,
-                rb.linearVelocity.y
-            );
-
-            FacePlayer();
-
-            if (attackTimer <= 0)
-            {
-                StartAttack();
-            }
-
-            return;
-        }
-
-        if (xDistance <= chaseRange)
-        {
-            ChasePlayer();
-            return;
-        }
-
-        Patrol();
+        StartPatrol();
     }
 
     void StartAttack()
     {
-        if (isAttacking)
+        if (isDead ||
+            isAttacking)
         {
             return;
         }
 
         isAttacking = true;
         hasHitPlayer = false;
+
         attackTimer = attackCooldown;
+        attackAnimationTimer = attackDuration;
+        attackHitTimer = attackHitDelay;
 
-        rb.linearVelocity = new Vector2(
-            0,
-            rb.linearVelocity.y
-        );
+        StopMovement();
 
-        animator.Play(
-            "monkey2",
-            0,
-            0f
-        );
-
-        StartCoroutine(
-            AttackRoutine()
-        );
-    }
-
-    IEnumerator AttackRoutine()
-    {
-        yield return new WaitForSeconds(
-            attackHitDelay
-        );
-
-        AttackPlayer();
-
-        while (true)
+        if (animator != null)
         {
-            AnimatorStateInfo state =
-                animator.GetCurrentAnimatorStateInfo(0);
-
-            if (!state.IsName("monkey2"))
-            {
-                break;
-            }
-
-            if (state.normalizedTime >= 1f)
-            {
-                break;
-            }
-
-            yield return null;
+            animator.Play(
+                "monkey2",
+                0,
+                0f
+            );
         }
 
-        isAttacking = false;
+        Debug.Log("Monkey started attack");
     }
 
-    public void AttackPlayer()
+    void UpdateAttack()
     {
-        if (!isAttacking || hasHitPlayer)
+        if (isDead)
         {
             return;
         }
 
-        if (player == null)
+        StopMovement();
+
+        attackAnimationTimer -=
+            Time.fixedDeltaTime;
+
+        attackHitTimer -=
+            Time.fixedDeltaTime;
+
+        if (!hasHitPlayer &&
+            attackHitTimer <= 0)
+        {
+            AttackPlayer();
+        }
+
+        if (attackAnimationTimer <= 0)
+        {
+            isAttacking = false;
+        }
+    }
+
+    void AttackPlayer()
+    {
+        if (isDead ||
+            hasHitPlayer ||
+            player == null)
         {
             return;
         }
 
-        float xDistance = Mathf.Abs(
-            player.position.x -
-            transform.position.x
-        );
+        PlayerHealth playerHealth =
+            player.GetComponent<PlayerHealth>();
 
-        float yDistance = Mathf.Abs(
-            player.position.y -
-            transform.position.y
-        );
-
-        if (xDistance <= attackRange &&
-            yDistance <= attackYRange)
+        if (playerHealth != null)
         {
-            PlayerHealth playerHealth =
-                player.GetComponent<PlayerHealth>();
+            playerHealth.TakeDamage(
+                attackDamage
+            );
 
-            if (playerHealth != null)
-            {
-                playerHealth.TakeDamage(
-                    attackDamage
-                );
+            hasHitPlayer = true;
 
-                hasHitPlayer = true;
-
-                Debug.Log(
-                    "Monkey attacked Player. Damage = "
-                    + attackDamage
-                );
-            }
+            Debug.Log(
+                "Monkey attacked Player! Damage = " +
+                attackDamage
+            );
         }
     }
 
     void Patrol()
     {
+        if (isDead)
+        {
+            return;
+        }
+
         if (avoidingEdge)
         {
             MovePatrol();
@@ -305,15 +277,8 @@ public class MonkeyEnemy : MonoBehaviour
         {
             pauseTimer -= Time.fixedDeltaTime;
 
-            rb.linearVelocity = new Vector2(
-                0,
-                rb.linearVelocity.y
-            );
-
-            animator.SetFloat(
-                "Speed",
-                0
-            );
+            StopMovement();
+            SetAnimationSpeed(0);
 
             return;
         }
@@ -350,6 +315,11 @@ public class MonkeyEnemy : MonoBehaviour
 
     void StartPatrol()
     {
+        if (isDead)
+        {
+            return;
+        }
+
         patrolling = true;
 
         patrolTimer = Random.Range(
@@ -370,13 +340,17 @@ public class MonkeyEnemy : MonoBehaviour
 
     void MovePatrol()
     {
+        if (isDead)
+        {
+            return;
+        }
+
         rb.linearVelocity = new Vector2(
             direction * patrolSpeed,
             rb.linearVelocity.y
         );
 
-        animator.SetFloat(
-            "Speed",
+        SetAnimationSpeed(
             Mathf.Abs(rb.linearVelocity.x)
         );
 
@@ -385,6 +359,12 @@ public class MonkeyEnemy : MonoBehaviour
 
     void ChasePlayer()
     {
+        if (isDead ||
+            player == null)
+        {
+            return;
+        }
+
         if (avoidingEdge)
         {
             rb.linearVelocity = new Vector2(
@@ -392,11 +372,7 @@ public class MonkeyEnemy : MonoBehaviour
                 rb.linearVelocity.y
             );
 
-            animator.SetFloat(
-                "Speed",
-                speed
-            );
-
+            SetAnimationSpeed(speed);
             FaceDirection();
 
             return;
@@ -412,16 +388,11 @@ public class MonkeyEnemy : MonoBehaviour
             player.position.x -
             transform.position.x;
 
-        if (Mathf.Abs(difference) > turnDeadZone)
+        if (Mathf.Abs(difference) >
+            turnDeadZone)
         {
-            if (difference > 0)
-            {
-                direction = 1;
-            }
-            else
-            {
-                direction = -1;
-            }
+            direction =
+                difference > 0 ? 1 : -1;
         }
 
         rb.linearVelocity = new Vector2(
@@ -429,8 +400,7 @@ public class MonkeyEnemy : MonoBehaviour
             rb.linearVelocity.y
         );
 
-        animator.SetFloat(
-            "Speed",
+        SetAnimationSpeed(
             Mathf.Abs(rb.linearVelocity.x)
         );
 
@@ -439,6 +409,11 @@ public class MonkeyEnemy : MonoBehaviour
 
     bool IsEdgeAhead()
     {
+        if (monkeyCollider == null)
+        {
+            return false;
+        }
+
         float checkX =
             monkeyCollider.bounds.center.x +
             direction *
@@ -477,6 +452,11 @@ public class MonkeyEnemy : MonoBehaviour
 
     void TurnAroundFromEdge()
     {
+        if (isDead)
+        {
+            return;
+        }
+
         direction *= -1;
 
         avoidingEdge = true;
@@ -492,34 +472,134 @@ public class MonkeyEnemy : MonoBehaviour
 
     void FacePlayer()
     {
-        float difference =
-            player.position.x -
-            transform.position.x;
-
-        if (Mathf.Abs(difference) <= turnDeadZone)
+        if (player == null)
         {
             return;
         }
 
-        if (difference > 0)
+        float difference =
+            player.position.x -
+            transform.position.x;
+
+        if (Mathf.Abs(difference) <=
+            turnDeadZone)
         {
-            direction = 1;
+            return;
         }
-        else
-        {
-            direction = -1;
-        }
+
+        direction =
+            difference > 0 ? 1 : -1;
 
         FaceDirection();
     }
 
     void FaceDirection()
     {
-        transform.localScale = new Vector3(
-            direction *
-            Mathf.Abs(transform.localScale.x),
-            transform.localScale.y,
-            transform.localScale.z
+        if (isDead)
+        {
+            return;
+        }
+
+        transform.localScale =
+            new Vector3(
+                direction *
+                Mathf.Abs(
+                    transform.localScale.x
+                ),
+                transform.localScale.y,
+                transform.localScale.z
+            );
+    }
+
+    void StopMovement()
+    {
+        if (rb == null)
+        {
+            return;
+        }
+
+        rb.linearVelocity =
+            new Vector2(
+                0,
+                rb.linearVelocity.y
+            );
+    }
+
+    void SetAnimationSpeed(float value)
+    {
+        if (animator == null)
+        {
+            return;
+        }
+
+        animator.SetFloat(
+            "Speed",
+            value
         );
+    }
+
+    void IgnoreOtherMonkeys()
+    {
+        MonkeyEnemy[] monkeys =
+            FindObjectsByType<MonkeyEnemy>(
+                FindObjectsSortMode.None
+            );
+
+        foreach (MonkeyEnemy monkey in monkeys)
+        {
+            if (monkey == this)
+            {
+                continue;
+            }
+
+            Collider2D otherCollider =
+                monkey.GetComponent<Collider2D>();
+
+            if (otherCollider != null &&
+                monkeyCollider != null)
+            {
+                Physics2D.IgnoreCollision(
+                    monkeyCollider,
+                    otherCollider,
+                    true
+                );
+            }
+        }
+    }
+
+    public void StopEnemy()
+    {
+        if (isDead)
+        {
+            return;
+        }
+
+        isDead = true;
+        isAttacking = false;
+        hasHitPlayer = true;
+
+        CancelInvoke();
+
+        StopMovement();
+
+        if (monkeyCollider != null)
+        {
+            monkeyCollider.enabled = false;
+        }
+
+        if (rb != null)
+        {
+            rb.simulated = false;
+        }
+
+        if (animator != null)
+        {
+            animator.enabled = false;
+        }
+    }
+
+    void OnDisable()
+    {
+        CancelInvoke();
     }
 }

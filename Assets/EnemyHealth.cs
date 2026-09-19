@@ -7,11 +7,13 @@ public class EnemyHealth : MonoBehaviour
 
     private int currentHealth;
     private Animator animator;
+    private EnemyDrop enemyDrop;
 
     void Start()
     {
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
+        enemyDrop = GetComponent<EnemyDrop>();
     }
 
     public void TakeDamage(int damage)
@@ -23,7 +25,11 @@ public class EnemyHealth : MonoBehaviour
 
         currentHealth -= damage;
 
-        Debug.Log(gameObject.name + " HP: " + currentHealth);
+        Debug.Log(
+            gameObject.name +
+            " HP: " +
+            currentHealth
+        );
 
         if (currentHealth <= 0)
         {
@@ -34,12 +40,25 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
-        Debug.Log(gameObject.name + " Died!");
+        Debug.Log(
+            gameObject.name +
+            " Died!"
+        );
 
-        if (useDeathAnimation && animator != null)
+        if (enemyDrop != null)
+        {
+            enemyDrop.Drop();
+        }
+
+        if (useDeathAnimation &&
+            animator != null)
         {
             animator.SetTrigger("Death");
-            Destroy(gameObject, 1f);
+
+            Destroy(
+                gameObject,
+                1f
+            );
         }
         else
         {

@@ -4,12 +4,19 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
-    public float jumpForce = 8f;
+    public float jumpForce = 9f;
     public float jumpCut = 0.5f;
 
     public int attackDamage = 1;
     public float attackRange = 1.2f;
     public float attackSpeed = 0.5f;
+
+    public int attackLevel = 1;
+    public int jumpLevel = 1;
+
+    public AudioSource audioSource;
+    public AudioClip attackSound;
+    public AudioClip hitSound;
 
     private float attackTimer = 0f;
     private bool isAttacking = false;
@@ -27,6 +34,25 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         playerCollider = GetComponent<Collider2D>();
+
+        if (PlayerDataManager.instance != null &&
+            PlayerDataManager.instance.hasData)
+        {
+            attackLevel =
+                PlayerDataManager.instance.attackLevel;
+
+            attackSpeed =
+                PlayerDataManager.instance.attackSpeed;
+
+            attackRange =
+                PlayerDataManager.instance.attackRange;
+
+            jumpLevel =
+                PlayerDataManager.instance.jumpLevel;
+
+            jumpForce =
+                PlayerDataManager.instance.jumpForce;
+        }
     }
 
     void Update()
@@ -49,6 +75,12 @@ public class PlayerMovement : MonoBehaviour
             isAttacking = true;
 
             animator.SetTrigger("Attack");
+
+            if (audioSource != null &&
+                attackSound != null)
+            {
+                audioSource.PlayOneShot(attackSound);
+            }
 
             attackTimer = 0.5f / attackSpeed;
         }
@@ -113,13 +145,16 @@ public class PlayerMovement : MonoBehaviour
             transform.position;
 
         attackPosition.x +=
-            transform.localScale.x * attackRange;
+            transform.localScale.x *
+            attackRange;
 
         Collider2D[] hits =
             Physics2D.OverlapCircleAll(
                 attackPosition,
                 0.8f
             );
+
+        bool hitEnemy = false;
 
         foreach (Collider2D hit in hits)
         {
@@ -129,6 +164,7 @@ public class PlayerMovement : MonoBehaviour
             if (boss != null)
             {
                 boss.TakeDamage(attackDamage);
+                hitEnemy = true;
                 continue;
             }
 
@@ -138,6 +174,7 @@ public class PlayerMovement : MonoBehaviour
             if (boss2 != null)
             {
                 boss2.TakeDamage(attackDamage);
+                hitEnemy = true;
                 continue;
             }
 
@@ -149,6 +186,7 @@ public class PlayerMovement : MonoBehaviour
                 boss2Final.TakeDamage(
                     attackDamage
                 );
+                hitEnemy = true;
                 continue;
             }
 
@@ -160,13 +198,106 @@ public class PlayerMovement : MonoBehaviour
                 enemy.TakeDamage(
                     attackDamage
                 );
+
+                hitEnemy = true;
             }
+        }
+
+        if (hitEnemy &&
+            audioSource != null &&
+            hitSound != null)
+        {
+            audioSource.PlayOneShot(hitSound);
         }
     }
 
     public void FinishAttack()
     {
         isAttacking = false;
+    }
+
+    public void UpgradeAttack()
+    {
+        if (attackSpeed < 2.0f)
+        {
+            attackSpeed = Mathf.Min(
+                attackSpeed + 0.2f,
+                2.0f
+            );
+
+            attackRange = Mathf.Min(
+                attackRange + 0.1f,
+                1.6f
+            );
+
+            attackLevel++;
+
+            SavePlayerData();
+        }
+
+        Debug.Log(
+            "Attack upgraded! Level = " +
+            attackLevel +
+            " Speed = " +
+            attackSpeed +
+            " Range = " +
+            attackRange
+        );
+    }
+
+    public void UpgradeJump()
+    {
+        if (jumpForce < 11f)
+        {
+            jumpForce = Mathf.Min(
+                jumpForce + 0.2f,
+                11f
+            );
+
+            jumpLevel++;
+
+            SavePlayerData();
+        }
+
+        Debug.Log(
+            "Jump upgraded! Level = " +
+            jumpLevel +
+            " Jump Force = " +
+            jumpForce
+        );
+    }
+
+    void SavePlayerData()
+    {
+        if (PlayerDataManager.instance == null)
+        {
+            return;
+        }
+
+        PlayerHealth playerHealth =
+            GetComponent<PlayerHealth>();
+
+        int currentHealth = 5;
+        int maxHealth = 10;
+
+        if (playerHealth != null)
+        {
+            currentHealth =
+                playerHealth.currentHealth;
+
+            maxHealth =
+                playerHealth.maxHealth;
+        }
+
+        PlayerDataManager.instance.SavePlayer(
+            attackLevel,
+            attackSpeed,
+            attackRange,
+            jumpLevel,
+            jumpForce,
+            currentHealth,
+            maxHealth
+        );
     }
 
     void OnCollisionEnter2D(

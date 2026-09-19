@@ -408,6 +408,10 @@ public class Boss2Final : MonoBehaviour
 
         return false;
     }
+    public int GetCurrentHealth()
+{
+    return currentHealth;
+}
 
     public void StartBombAttack()
     {

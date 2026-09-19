@@ -4,7 +4,7 @@ using System.Collections;
 public class Boss2 : MonoBehaviour
 {
     [Header("Health")]
-    public int maxHealth = 50;
+    public int maxHealth = 40;
 
     private int currentHealth;
 
@@ -28,12 +28,12 @@ public class Boss2 : MonoBehaviour
 
     [Header("References")]
     public Transform player;
+    public GameObject bossHealthBar;
 
     private Animator animator;
 
     private bool isAttacking = false;
     private bool phase2Triggered = false;
-
 
     void Start()
     {
@@ -42,17 +42,22 @@ public class Boss2 : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-
     void Update()
     {
         if (player == null)
+        {
             return;
+        }
 
         if (phase2Triggered)
+        {
             return;
+        }
 
         if (isAttacking)
+        {
             return;
+        }
 
         float distance = Mathf.Abs(
             player.position.x - transform.position.x
@@ -69,7 +74,6 @@ public class Boss2 : MonoBehaviour
             StartCoroutine(ShootAttack());
         }
     }
-
 
     void MoveTowardsPlayer()
     {
@@ -90,7 +94,6 @@ public class Boss2 : MonoBehaviour
         FacePlayer();
     }
 
-
     void StopMoving()
     {
         animator.SetBool("IsRunning", false);
@@ -98,19 +101,25 @@ public class Boss2 : MonoBehaviour
         FacePlayer();
     }
 
-
     void FacePlayer()
     {
         if (player.position.x > transform.position.x)
         {
-            transform.localScale = new Vector3(7f, 7f, 1f);
+            transform.localScale = new Vector3(
+                7f,
+                7f,
+                1f
+            );
         }
         else if (player.position.x < transform.position.x)
         {
-            transform.localScale = new Vector3(-7f, 7f, 1f);
+            transform.localScale = new Vector3(
+                -7f,
+                7f,
+                1f
+            );
         }
     }
-
 
     IEnumerator ShootAttack()
     {
@@ -120,43 +129,53 @@ public class Boss2 : MonoBehaviour
 
         FacePlayer();
 
-        yield return new WaitForSeconds(shootDelay);
+        yield return new WaitForSeconds(
+            shootDelay
+        );
 
-        // First bullet
         Shoot();
 
-        yield return new WaitForSeconds(bulletInterval);
+        yield return new WaitForSeconds(
+            bulletInterval
+        );
 
-        // Second bullet
         Shoot();
 
-        // Give player time to attack
-        yield return new WaitForSeconds(restTime);
+        yield return new WaitForSeconds(
+            restTime
+        );
 
         isAttacking = false;
     }
-
 
     void Shoot()
     {
         if (bulletPrefab == null)
         {
-            Debug.LogWarning("Boss2 Bullet Prefab is missing!");
+            Debug.LogWarning(
+                "Boss2 Bullet Prefab is missing!"
+            );
             return;
         }
 
         if (firePoint == null)
         {
-            Debug.LogWarning("Boss2 Fire Point is missing!");
+            Debug.LogWarning(
+                "Boss2 Fire Point is missing!"
+            );
             return;
         }
 
         if (player == null)
+        {
             return;
+        }
 
         Vector2 direction = new Vector2(
-            player.position.x - firePoint.position.x,
-            (player.position.y - firePoint.position.y) * 1.5f
+            player.position.x -
+            firePoint.position.x,
+            (player.position.y -
+            firePoint.position.y) * 1.5f
         ).normalized;
 
         GameObject bullet = Instantiate(
@@ -175,11 +194,12 @@ public class Boss2 : MonoBehaviour
         }
     }
 
-
     public void TakeDamage(int damage)
     {
         if (phase2Triggered)
+        {
             return;
+        }
 
         currentHealth -= damage;
 
@@ -188,7 +208,10 @@ public class Boss2 : MonoBehaviour
             currentHealth = 0;
         }
 
-        Debug.Log("Boss2 HP: " + currentHealth);
+        Debug.Log(
+            "Boss2 HP: " +
+            currentHealth
+        );
 
         animator.SetTrigger("Hurt");
 
@@ -198,6 +221,10 @@ public class Boss2 : MonoBehaviour
         }
     }
 
+    public int GetCurrentHealth()
+    {
+        return currentHealth;
+    }
 
     void StartPhase2()
     {
@@ -207,61 +234,84 @@ public class Boss2 : MonoBehaviour
 
         isAttacking = false;
 
-        animator.SetBool("IsRunning", false);
+        animator.SetBool(
+            "IsRunning",
+            false
+        );
 
-        Debug.Log("Boss2 Phase 2 Triggered!");
+        if (bossHealthBar != null)
+        {
+            bossHealthBar.SetActive(false);
+        }
 
-        StartCoroutine(Escape());
+        Debug.Log(
+            "Boss2 Phase 2 Triggered!"
+        );
+
+        StartCoroutine(
+            Escape()
+        );
     }
-
 
     IEnumerator Escape()
     {
-        // Decide which direction to escape
         float escapeDirection;
 
-        if (transform.position.x < player.position.x)
+        if (transform.position.x <
+            player.position.x)
         {
-            // Boss is on the left of player -> escape left
             escapeDirection = -1f;
         }
         else
         {
-            // Boss is on the right of player -> escape right
             escapeDirection = 1f;
         }
 
-        // Face the escape direction
-        transform.localScale = new Vector3(
-            escapeDirection * 7f,
-            7f,
-            1f
+        transform.localScale =
+            new Vector3(
+                escapeDirection * 7f,
+                7f,
+                1f
+            );
+
+        animator.SetBool(
+            "IsRunning",
+            true
         );
 
-        // Play running animation
-        animator.SetBool("IsRunning", true);
+        float startX =
+            transform.position.x;
 
-        float startX = transform.position.x;
-
-        while (Mathf.Abs(transform.position.x - startX) < escapeDistance)
+        while (
+            Mathf.Abs(
+                transform.position.x -
+                startX
+            ) < escapeDistance
+        )
         {
-            transform.position += new Vector3(
-                escapeDirection * escapeSpeed * Time.deltaTime,
-                0f,
-                0f
-            );
+            transform.position +=
+                new Vector3(
+                    escapeDirection *
+                    escapeSpeed *
+                    Time.deltaTime,
+                    0f,
+                    0f
+                );
 
             yield return null;
         }
 
-        animator.SetBool("IsRunning", false);
+        animator.SetBool(
+            "IsRunning",
+            false
+        );
 
-        // Boss leaves the scene
         gameObject.SetActive(false);
 
-        Debug.Log("Boss2 escaped!");
+        Debug.Log(
+            "Boss2 escaped!"
+        );
     }
-
 
     private void OnDrawGizmosSelected()
     {
