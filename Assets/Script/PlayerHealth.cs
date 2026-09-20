@@ -6,6 +6,9 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 10;
     public int currentHealth = 5;
 
+    // Death Menu
+    public GameObject deathMenuPanel;
+
     public float hurtDuration = 1.2f;
     public float blinkInterval = 0.1f;
 
@@ -22,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
         spriteRenderers =
             GetComponentsInChildren<SpriteRenderer>();
 
+        // Load saved player data
         if (PlayerDataManager.instance != null &&
             PlayerDataManager.instance.hasData)
         {
@@ -32,10 +36,31 @@ public class PlayerHealth : MonoBehaviour
                 PlayerDataManager.instance.maxHealth;
         }
 
+        // If player restarted after dying,
+        // restore HP to 5.
+        if (currentHealth <= 0)
+        {
+            currentHealth = 5;
+        }
+
         currentHealth = Mathf.Clamp(
             currentHealth,
             0,
             maxHealth
+        );
+
+        // Make sure Death Menu is hidden
+        // when the game starts.
+        if (deathMenuPanel != null)
+        {
+            deathMenuPanel.SetActive(false);
+        }
+
+        Debug.Log(
+            "Player HP on Start: "
+            + currentHealth
+            + "/"
+            + maxHealth
         );
     }
 
@@ -56,10 +81,10 @@ public class PlayerHealth : MonoBehaviour
         SavePlayerData();
 
         Debug.Log(
-            "Player HP: " +
-            currentHealth +
-            "/" +
-            maxHealth
+            "Player HP: "
+            + currentHealth
+            + "/"
+            + maxHealth
         );
 
         if (currentHealth <= 0)
@@ -141,10 +166,10 @@ public class PlayerHealth : MonoBehaviour
         SavePlayerData();
 
         Debug.Log(
-            "Player HP: " +
-            currentHealth +
-            "/" +
-            maxHealth
+            "Player HP: "
+            + currentHealth
+            + "/"
+            + maxHealth
         );
     }
 
@@ -187,5 +212,15 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player Died!");
+
+        // Make sure HP is 0 when player dies
+        currentHealth = 0;
+
+        SavePlayerData();
+
+        if (deathMenuPanel != null)
+        {
+            deathMenuPanel.SetActive(true);
+        }
     }
 }

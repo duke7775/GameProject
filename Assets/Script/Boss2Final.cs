@@ -25,7 +25,11 @@ public class Boss2Final : MonoBehaviour
 
     public Transform player;
 
+    // Boss HP = 30
     public int maxHealth = 30;
+
+    // Congratulations Menu
+    public GameObject endMenuPanel;
 
     private int currentHealth;
     private Animator animator;
@@ -60,6 +64,12 @@ public class Boss2Final : MonoBehaviour
         groundY = transform.position.y;
 
         Debug.Log("[Boss2Final] Ground Y = " + groundY);
+
+        // Hide Congratulations Menu when game starts
+        if (endMenuPanel != null)
+        {
+            endMenuPanel.SetActive(false);
+        }
 
         if (player == null)
         {
@@ -138,6 +148,11 @@ public class Boss2Final : MonoBehaviour
 
         currentHealth -= damage;
 
+        if (currentHealth < 0)
+        {
+            currentHealth = 0;
+        }
+
         Debug.Log(
             "[Boss2Final] Took "
             + damage
@@ -149,7 +164,6 @@ public class Boss2Final : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            currentHealth = 0;
             Die();
         }
         else
@@ -174,6 +188,18 @@ public class Boss2Final : MonoBehaviour
         }
 
         StopAllCoroutines();
+
+        // Show Congratulations Menu
+        if (endMenuPanel != null)
+        {
+            endMenuPanel.SetActive(true);
+        }
+        else
+        {
+            Debug.LogError(
+                "[Boss2Final] End Menu Panel is not assigned!"
+            );
+        }
     }
 
     IEnumerator BossAttackLoop()
@@ -408,10 +434,11 @@ public class Boss2Final : MonoBehaviour
 
         return false;
     }
+
     public int GetCurrentHealth()
-{
-    return currentHealth;
-}
+    {
+        return currentHealth;
+    }
 
     public void StartBombAttack()
     {
